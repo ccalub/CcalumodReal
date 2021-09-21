@@ -126,7 +126,7 @@ public class MergerGUIGui extends CcalumodModElements.ModElement {
 			}));
 			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 43, 17) {
 			}));
-			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 142, 35) {
+			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 142, 29) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;

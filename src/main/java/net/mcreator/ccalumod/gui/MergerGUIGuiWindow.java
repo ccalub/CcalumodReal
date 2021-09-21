@@ -85,7 +85,7 @@ public class MergerGUIGuiWindow extends ContainerScreen<MergerGUIGui.GuiContaine
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 78, this.guiTop + 34, 50, 20, new StringTextComponent("Merge"), e -> {
+		this.addButton(new Button(this.guiLeft + 77, this.guiTop + 27, 50, 20, new StringTextComponent("Merge"), e -> {
 			if (true) {
 				CcalumodMod.PACKET_HANDLER.sendToServer(new MergerGUIGui.ButtonPressedMessage(0, x, y, z));
 				MergerGUIGui.handleButtonAction(entity, 0, x, y, z);
