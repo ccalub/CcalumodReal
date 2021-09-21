@@ -10,7 +10,7 @@
       "item": "minecraft:stick"
     },
     "1": {
-      "item": "ccalumod:deleted_mod_element"
+      "item": "ccalumod:razzalieous_planks"
     },
     "2": {
       "item": "minecraft:stick"
@@ -19,14 +19,14 @@
       "item": "minecraft:stick"
     },
     "4": {
-      "item": "ccalumod:deleted_mod_element"
+      "item": "ccalumod:razzalieous_planks"
     },
     "5": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "ccalumod:deleted_mod_element",
+    "item": "ccalumod:razzalieous_fence_gate",
     "count": 1
   }
 }
