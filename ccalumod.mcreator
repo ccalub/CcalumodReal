@@ -653,6 +653,18 @@
       {
         "name": "Dimensions",
         "children": []
+      },
+      {
+        "name": "Food",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      },
+      {
+        "name": "Particles",
+        "children": []
       }
     ]
   },
