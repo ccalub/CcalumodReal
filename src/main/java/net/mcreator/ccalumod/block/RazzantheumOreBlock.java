@@ -24,8 +24,6 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
-import net.minecraft.loot.LootContext;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
@@ -38,8 +36,6 @@ import net.minecraft.block.Block;
 import net.mcreator.ccalumod.CcalumodModElements;
 
 import java.util.Random;
-import java.util.List;
-import java.util.Collections;
 
 @CcalumodModElements.ModElement.Tag
 public class RazzantheumOreBlock extends CcalumodModElements.ModElement {
@@ -59,21 +55,13 @@ public class RazzantheumOreBlock extends CcalumodModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 3));
 			setRegistryName("razzantheum_ore");
 		}
 
 		@Override
 		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
 			return 15;
-		}
-
-		@Override
-		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-			if (!dropsOriginal.isEmpty())
-				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;
