@@ -7,5 +7,35 @@
         "stream": false
       }
     ]
+  },
+  "razzkeldeath": {
+    "category": "hostile",
+    "subtitle": "subtitles.razzkeldeath",
+    "sounds": [
+      {
+        "name": "ccalumod:razzkeldeath",
+        "stream": false
+      }
+    ]
+  },
+  "razzkelliving": {
+    "category": "neutral",
+    "subtitle": "subtitles.razzkelliving",
+    "sounds": [
+      {
+        "name": "ccalumod:razzkelphone",
+        "stream": false
+      }
+    ]
+  },
+  "razzkelhurts": {
+    "category": "hostile",
+    "subtitle": "subtitles.razzkelhurts",
+    "sounds": [
+      {
+        "name": "ccalumod:razzkelouchie",
+        "stream": false
+      }
+    ]
   }
 }
