@@ -80,13 +80,13 @@
       "value": "CUSTOM:RazzantheumSword"
     },
     "livingSound": {
-      "value": ""
+      "value": "CUSTOM:razzkelliving"
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "CUSTOM:razzkelhurts"
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "CUSTOM:razzkeldeath"
     },
     "stepSound": {
       "value": ""
