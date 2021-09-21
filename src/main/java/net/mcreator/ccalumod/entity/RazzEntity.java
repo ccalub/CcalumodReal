@@ -56,7 +56,7 @@ public class RazzEntity extends CcalumodModElements.ModElement {
 	public void initElements() {
 		elements.entities.add(() -> entity);
 		elements.items.add(
-				() -> new SpawnEggItem(entity, -26215, -13434880, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("razz_spawn_egg"));
+				() -> new SpawnEggItem(entity, -52429, -13434880, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("razz_spawn_egg"));
 	}
 
 	@SubscribeEvent
