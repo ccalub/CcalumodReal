@@ -1,0 +1,665 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Ccalumod",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ccalumod",
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ToleroniumOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toleronium_ore",
+      "path": "~/Resources"
+    },
+    {
+      "name": "ToleroniumIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toleronium_ingot",
+      "path": "~/Resources"
+    },
+    {
+      "name": "ToleroniumOreToIngot",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toleronium_ore_to_ingot",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ToleroniumPickaxe",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toleronium_pickaxe",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "ToleroniumSword",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toleronium_sword",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "ToleroniumAxe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toleronium_axe",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "ToleroniumShovel",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toleronium_shovel",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "ToleroniumToPickaxe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toleronium_to_pickaxe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ToleroniumToSword",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toleronium_to_sword",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ToleroniumToAxe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toleronium_to_axe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ToleroniumToAxe2",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toleronium_to_axe_2",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ToleroniumToShovel",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toleronium_to_shovel",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Toler",
+      "type": "livingentity",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toler",
+      "path": "~/Mobs"
+    },
+    {
+      "name": "AmethystOre",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_ore",
+      "path": "~/Resources"
+    },
+    {
+      "name": "Amethyst",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst",
+      "path": "~/Resources"
+    },
+    {
+      "name": "SapphireOre",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_ore",
+      "path": "~/Resources"
+    },
+    {
+      "name": "Sapphire",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire",
+      "path": "~/Resources"
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore",
+      "path": "~/Resources"
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby",
+      "path": "~/Resources"
+    },
+    {
+      "name": "Workstation",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "workstation",
+      "path": "~/FunctionBlocks"
+    },
+    {
+      "name": "WorkstationGUI",
+      "type": "gui",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "workstation_gui",
+      "path": "~/GUI"
+    },
+    {
+      "name": "Ultimanium",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultimanium",
+      "path": "~/Resources"
+    },
+    {
+      "name": "WorkstationProcedure",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "workstation_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Toleronium",
+      "type": "armor",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toleronium",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "UltimaniumPickaxe",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultimanium_pickaxe",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "UltimaniumSwordProcedure",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultimanium_sword_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "UltimaniumLongsword",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultimanium_longsword",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "UltimaniumBroadsword",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultimanium_broadsword",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "UltimaniumDagger",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultimanium_dagger",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "UltimaniumAxe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultimanium_axe",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "UltimaniumShovel",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultimanium_shovel",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "ToleroniumToHelmet",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toleronium_to_helmet",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ToleroniumToHelmet2",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toleronium_to_helmet_2",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ToleroniumToChestplate",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toleronium_to_chestplate",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ToleroniumToLeggings",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toleronium_to_leggings",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ToleroniumToBoots",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toleronium_to_boots",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ToleroniumToBoots2",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toleronium_to_boots_2",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Lifesteal",
+      "type": "enchantment",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lifesteal",
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "LifestealProcuedure",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enchantments",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "Speed",
+      "type": "enchantment",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speed",
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "BootsProcedure",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boots_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "UltimaniumArmor",
+      "type": "armor",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultimanium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "RazzantheumOre",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_ore",
+      "path": "~/Resources"
+    },
+    {
+      "name": "RazzantheumProcedure",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RazzantheumIngot",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_ingot",
+      "path": "~/Resources"
+    },
+    {
+      "name": "RazzantheumPickaxe",
+      "type": "tool",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_pickaxe",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "RazzantheumSword",
+      "type": "tool",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_sword",
+      "path": "~/Tools And Armor"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "toler_sound",
+      "files": [
+        "tolersounds"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.ccalumod.razzantheum_sword": "Razzantheum Sword",
+      "subtitles.toler_sound": "",
+      "block.ccalumod.toleronium_ore": "Toleronium Ore",
+      "item.ccalumod.sapphire": "Sapphire",
+      "block.ccalumod.razzantheum_ore": "Razzantheum Ore",
+      "item.ccalumod.toleronium_shovel": "Toleronium Shovel",
+      "item.ccalumod.toleronium_ingot": "Toleronium Ingot",
+      "item.ccalumod.ultimanium_dagger": "Ultimanium Dagger",
+      "block.ccalumod.ruby_ore": "Ruby Ore",
+      "item.ccalumod.ultimanium_pickaxe": "Ultimanium Pickaxe",
+      "item.ccalumod.toleronium_helmet": "Toleronium Helmet",
+      "item.ccalumod.toler_spawn_egg": "Toler Spawn Egg",
+      "item.ccalumod.ultimanium_longsword": "Ultimanium Longsword",
+      "item.ccalumod.toleronium_pickaxe": "Toleronium Pickaxe",
+      "block.ccalumod.sapphire_ore": "Sapphire Ore",
+      "item.ccalumod.razzantheum_ingot": "Razzantheum Ingot",
+      "item.ccalumod.toleronium_chestplate": "Toleronium Body",
+      "itemGroup.tabccalumod": "Ccalumod",
+      "item.ccalumod.toleronium_sword": "Toleronium Sword",
+      "item.ccalumod.ultimanium_broadsword": "Ultimanium Broadsword",
+      "enchantment.ccalumod.lifesteal": "Lifesteal",
+      "item.ccalumod.ultimanium_armor_leggings": "Ultimanium Armor Leggings",
+      "item.ccalumod.ultimanium_armor_boots": "Ultimanium Armor Boots",
+      "entity.ccalumod.toler": "Toler",
+      "item.ccalumod.toleronium_boots": "Toleronium Boots",
+      "item.ccalumod.amethyst": "Amethyst",
+      "block.ccalumod.workstation": "Workstation",
+      "item.ccalumod.ultimanium_armor_helmet": "Ultimanium Armor Helmet",
+      "item.ccalumod.ultimanium": "Ultimanium",
+      "item.ccalumod.ruby": "Ruby",
+      "block.ccalumod.amethyst_ore": "Amethyst Ore",
+      "item.ccalumod.toleronium_axe": "Toleronium Axe",
+      "enchantment.ccalumod.speed": "Speed",
+      "item.ccalumod.ultimanium_armor_chestplate": "Ultimanium Armor Body",
+      "item.ccalumod.toleronium_leggings": "Toleronium Leggings",
+      "item.ccalumod.ultimanium_axe": "Ultimanium Axe",
+      "item.ccalumod.ultimanium_shovel": "Ultimanium Shovel",
+      "item.ccalumod.razzantheum_pickaxe": "Razzantheum Pickaxe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Resources",
+        "children": []
+      },
+      {
+        "name": "Tools And Armor",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "FunctionBlocks",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Mobs",
+        "children": []
+      },
+      {
+        "name": "Enchantments",
+        "children": []
+      },
+      {
+        "name": "GUI",
+        "children": []
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Dimensions",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "ccalumod",
+    "modName": "Ccalumod",
+    "version": "1.0.0",
+    "author": "kcmat, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.ccalumod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}

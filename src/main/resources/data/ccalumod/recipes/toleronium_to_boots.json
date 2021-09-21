@@ -1,0 +1,26 @@
+{
+  "group": "ccalumod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ccalumod:toleronium_ingot"
+    },
+    "2": {
+      "item": "ccalumod:toleronium_ingot"
+    },
+    "3": {
+      "item": "ccalumod:toleronium_ingot"
+    },
+    "5": {
+      "item": "ccalumod:toleronium_ingot"
+    }
+  },
+  "result": {
+    "item": "ccalumod:toleronium_boots",
+    "count": 1
+  }
+}

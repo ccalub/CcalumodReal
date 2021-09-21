@@ -1,0 +1,36 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "toleronium_sword",
+    "customModelName": "Normal",
+    "name": "Toleronium Sword",
+    "specialInfo": [
+      "A Sword Based on TolerLive"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Ccalumod"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 4.0,
+    "attackSpeed": 2.5,
+    "enchantability": 2,
+    "damageVsEntity": 5.5,
+    "usageCount": 798,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ToleroniumIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "LifestealProcuedure"
+    }
+  }
+}

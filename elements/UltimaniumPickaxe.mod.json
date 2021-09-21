@@ -1,0 +1,33 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "ultimanium_pickaxe",
+    "customModelName": "Normal",
+    "name": "Ultimanium Pickaxe",
+    "specialInfo": [
+      "A pickaxe formed of the strongest materials from the overworld!"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 4,
+    "efficiency": 20.0,
+    "attackSpeed": 1.5,
+    "enchantability": 25,
+    "damageVsEntity": 5.5,
+    "usageCount": 100000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Ultimanium"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

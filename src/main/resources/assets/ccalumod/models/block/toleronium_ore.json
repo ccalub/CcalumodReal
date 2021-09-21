@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ccalumod:blocks/toleranium_ore",
+    "particle": "ccalumod:blocks/toleranium_ore"
+  }
+}

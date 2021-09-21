@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ccalumod:blocks/razzantheum_ore",
+    "particle": "ccalumod:blocks/razzantheum_ore"
+  }
+}

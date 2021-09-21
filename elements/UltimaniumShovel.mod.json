@@ -1,0 +1,33 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "ultimanium_shovel",
+    "customModelName": "Normal",
+    "name": "Ultimanium Shovel",
+    "specialInfo": [
+      "A shovel forged of the strongest materials found in the overworld!"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 4,
+    "efficiency": 18.0,
+    "attackSpeed": 1.6,
+    "enchantability": 30,
+    "damageVsEntity": 6.5,
+    "usageCount": 100000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Ultimanium"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

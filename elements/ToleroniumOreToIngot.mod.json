@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 5.0,
+    "cookingTime": 210,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:ToleroniumOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:ToleroniumIngot"
+    },
+    "name": "toleronium_ore_to_ingot",
+    "namespace": "mod"
+  }
+}

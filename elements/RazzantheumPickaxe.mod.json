@@ -1,0 +1,33 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "razzantheum_pickaxe",
+    "customModelName": "Normal",
+    "name": "Razzantheum Pickaxe",
+    "specialInfo": [
+      "A radioactive pickaxe formed of pure razzantheum!"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 3,
+    "efficiency": 8.0,
+    "attackSpeed": 1.4,
+    "enchantability": 24,
+    "damageVsEntity": 4.0,
+    "usageCount": 7500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:RazzantheumIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

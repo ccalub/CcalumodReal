@@ -1,0 +1,33 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "toleronium_axe",
+    "customModelName": "Normal",
+    "name": "Toleronium Axe",
+    "specialInfo": [
+      "An Axe Based on TolerLive"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Ccalumod"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 3,
+    "efficiency": 7.5,
+    "attackSpeed": 0.8,
+    "enchantability": 10,
+    "damageVsEntity": 5.5,
+    "usageCount": 781,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ToleroniumIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

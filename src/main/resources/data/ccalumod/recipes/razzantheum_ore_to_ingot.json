@@ -1,0 +1,12 @@
+{
+  "group": "ccalumod",
+  "type": "minecraft:smelting",
+  "experience": 5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "ccalumod:razzantheum_ore"
+  },
+  "result": {
+    "item": "ccalumod:razzantheum_ingot"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "group": "ccalumod",
+  "type": "minecraft:smelting",
+  "experience": 5,
+  "cookingtime": 210,
+  "ingredient": {
+    "item": "ccalumod:toleronium_ore"
+  },
+  "result": {
+    "item": "ccalumod:toleronium_ingot"
+  }
+}

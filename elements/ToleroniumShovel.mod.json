@@ -1,0 +1,33 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "toleronium_shovel",
+    "customModelName": "Normal",
+    "name": "Toleronium Shovel",
+    "specialInfo": [
+      "A Shovel Based on TolerLive"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Ccalumod"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 3,
+    "efficiency": 7.5,
+    "attackSpeed": 1.3,
+    "enchantability": 12,
+    "damageVsEntity": 5.0,
+    "usageCount": 781,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ToleroniumIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
