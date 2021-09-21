@@ -587,7 +587,7 @@
       "name": "RazzalieousLog",
       "type": "block",
       "sortid": 49,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "razzalieous_log",
@@ -617,7 +617,7 @@
       "name": "RazzalieousStairs",
       "type": "block",
       "sortid": 52,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "razzalieous_stairs",
@@ -627,7 +627,7 @@
       "name": "RazzalieousSlab",
       "type": "block",
       "sortid": 53,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "razzalieous_slab",
@@ -637,7 +637,7 @@
       "name": "RazzalieousFence",
       "type": "block",
       "sortid": 54,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "razzalieous_fence",
@@ -647,7 +647,7 @@
       "name": "RazzalieousFenceGate",
       "type": "block",
       "sortid": 55,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "razzalieous_fence_gate",
@@ -657,7 +657,7 @@
       "name": "RazzalieousPressurePlate",
       "type": "block",
       "sortid": 56,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "razzalieous_pressure_plate",
@@ -777,7 +777,7 @@
       "name": "RazzkelBiome",
       "type": "biome",
       "sortid": 48,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "razzkel_biome",
@@ -827,7 +827,7 @@
       "name": "RazzantheumArmourArmor",
       "type": "armor",
       "sortid": 48,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "razzantheum_armour_armor",
@@ -838,6 +838,82 @@
         "ec": true
       },
       "path": "~/Tools And Armor"
+    },
+    {
+      "name": "RazzanthiumShard",
+      "type": "item",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzanthium_shard",
+      "path": "~/Resources"
+    },
+    {
+      "name": "DarkMatterGoop",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unstable_dark_matter",
+      "path": "~/Resources"
+    },
+    {
+      "name": "MergerGUI",
+      "type": "gui",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "merger_gui",
+      "path": "~/GUI"
+    },
+    {
+      "name": "RazzantheumArmour",
+      "type": "armor",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_armour",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "RazzkelSnax",
+      "type": "food",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzkel_snax",
+      "path": "~/Food"
+    },
+    {
+      "name": "Razzantheum",
+      "type": "achievement",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum",
+      "path": "~/Achivements"
+    },
+    {
+      "name": "RazzanthiumBlock",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzanthium_block",
+      "path": "~/Dimensions"
     }
   ],
   "variable_elements": [],
@@ -955,6 +1031,10 @@
       },
       {
         "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Achivements",
         "children": []
       },
       {

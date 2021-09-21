@@ -23,8 +23,8 @@
     "creativeTab": {
       "value": "MISC"
     },
-    "isBoss": false,
-    "bossBarColor": "PINK",
+    "isBoss": true,
+    "bossBarColor": "GREEN",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
       "value": "CUSTOM:RazzantheumSword"
@@ -52,7 +52,7 @@
     "movementSpeed": 0.3,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
-    "health": 40,
+    "health": 80,
     "xpAmount": 0,
     "waterMob": false,
     "flyingMob": false,
@@ -80,13 +80,13 @@
       "value": "CUSTOM:RazzantheumSword"
     },
     "livingSound": {
-      "value": ""
+      "value": "CUSTOM:razzkelliving"
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "CUSTOM:razzkelhurts"
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "CUSTOM:razzkeldeath"
     },
     "stepSound": {
       "value": ""

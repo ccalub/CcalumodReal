@@ -2,22 +2,22 @@
 package net.mcreator.ccalumod.item;
 
 @CcalumodModElements.ModElement.Tag
-public class RazzantheumArmourArmorItem extends CcalumodModElements.ModElement {
+public class RazzantheumArmourItem extends CcalumodModElements.ModElement {
 
-	@ObjectHolder("ccalumod:razzantheum_armour_armor_helmet")
+	@ObjectHolder("ccalumod:razzantheum_armour_helmet")
 	public static final Item helmet = null;
 
-	@ObjectHolder("ccalumod:razzantheum_armour_armor_chestplate")
+	@ObjectHolder("ccalumod:razzantheum_armour_chestplate")
 	public static final Item body = null;
 
-	@ObjectHolder("ccalumod:razzantheum_armour_armor_leggings")
+	@ObjectHolder("ccalumod:razzantheum_armour_leggings")
 	public static final Item legs = null;
 
-	@ObjectHolder("ccalumod:razzantheum_armour_armor_boots")
+	@ObjectHolder("ccalumod:razzantheum_armour_boots")
 	public static final Item boots = null;
 
-	public RazzantheumArmourArmorItem(CcalumodModElements instance) {
-		super(instance, 48);
+	public RazzantheumArmourItem(CcalumodModElements instance) {
+		super(instance, 72);
 	}
 
 	@Override
@@ -45,13 +45,13 @@ public class RazzantheumArmourArmorItem extends CcalumodModElements.ModElement {
 
 			@Override
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(), new ItemStack(RazzantheumIngotItem.block));
+				return Ingredient.fromStacks(new ItemStack(RazzantheumIngotItem.block));
 			}
 
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public String getName() {
-				return "razzantheum_armour_armor";
+				return "razzantheum_armour";
 			}
 
 			@Override
@@ -72,7 +72,7 @@ public class RazzantheumArmourArmorItem extends CcalumodModElements.ModElement {
 				return "ccalumod:textures/models/armor/razzantheumarmour_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 
-		}.setRegistryName("razzantheum_armour_armor_helmet"));
+		}.setRegistryName("razzantheum_armour_helmet"));
 
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {
 
@@ -81,7 +81,7 @@ public class RazzantheumArmourArmorItem extends CcalumodModElements.ModElement {
 				return "ccalumod:textures/models/armor/razzantheumarmour_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 
-		}.setRegistryName("razzantheum_armour_armor_chestplate"));
+		}.setRegistryName("razzantheum_armour_chestplate"));
 
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
 
@@ -90,7 +90,7 @@ public class RazzantheumArmourArmorItem extends CcalumodModElements.ModElement {
 				return "ccalumod:textures/models/armor/razzantheumarmour_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 
-		}.setRegistryName("razzantheum_armour_armor_leggings"));
+		}.setRegistryName("razzantheum_armour_leggings"));
 
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
 
@@ -99,7 +99,7 @@ public class RazzantheumArmourArmorItem extends CcalumodModElements.ModElement {
 				return "ccalumod:textures/models/armor/razzantheumarmour_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 
-		}.setRegistryName("razzantheum_armour_armor_boots"));
+		}.setRegistryName("razzantheum_armour_boots"));
 	}
 
 }

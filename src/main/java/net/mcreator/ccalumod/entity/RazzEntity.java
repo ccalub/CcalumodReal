@@ -11,9 +11,11 @@ import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.common.MinecraftForge;
 
+import net.minecraft.world.server.ServerBossInfo;
 import net.minecraft.world.gen.Heightmap;
 import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.World;
+import net.minecraft.world.BossInfo;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.network.IPacket;
@@ -22,6 +24,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
@@ -84,7 +87,7 @@ public class RazzEntity extends CcalumodModElements.ModElement {
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 40);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 80);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 3);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 10);
@@ -130,13 +133,18 @@ public class RazzEntity extends CcalumodModElements.ModElement {
 		}
 
 		@Override
+		public net.minecraft.util.SoundEvent getAmbientSound() {
+			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ccalumod:razzkelliving"));
+		}
+
+		@Override
 		public net.minecraft.util.SoundEvent getHurtSound(DamageSource ds) {
-			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.hurt"));
+			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ccalumod:razzkelhurts"));
 		}
 
 		@Override
 		public net.minecraft.util.SoundEvent getDeathSound() {
-			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
+			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ccalumod:razzkeldeath"));
 		}
 
 		@Override
@@ -160,6 +168,29 @@ public class RazzEntity extends CcalumodModElements.ModElement {
 				$_dependencies.put("world", world);
 				RazzDropsProcedure.executeProcedure($_dependencies);
 			}
+		}
+
+		@Override
+		public boolean isNonBoss() {
+			return false;
+		}
+		private final ServerBossInfo bossInfo = new ServerBossInfo(this.getDisplayName(), BossInfo.Color.GREEN, BossInfo.Overlay.PROGRESS);
+		@Override
+		public void addTrackingPlayer(ServerPlayerEntity player) {
+			super.addTrackingPlayer(player);
+			this.bossInfo.addPlayer(player);
+		}
+
+		@Override
+		public void removeTrackingPlayer(ServerPlayerEntity player) {
+			super.removeTrackingPlayer(player);
+			this.bossInfo.removePlayer(player);
+		}
+
+		@Override
+		public void updateAITasks() {
+			super.updateAITasks();
+			this.bossInfo.setPercent(this.getHealth() / this.getMaxHealth());
 		}
 	}
 }
