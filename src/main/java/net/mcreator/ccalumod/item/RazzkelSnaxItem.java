@@ -26,8 +26,8 @@ public class RazzkelSnaxItem extends CcalumodModElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(4).saturation(0.3f).build()));
+			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.UNCOMMON)
+					.food((new Food.Builder()).hunger(10).saturation(1f).setAlwaysEdible().build()));
 			setRegistryName("razzkel_snax");
 		}
 
