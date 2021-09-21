@@ -587,7 +587,7 @@
       "name": "RazzalieousLog",
       "type": "block",
       "sortid": 49,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "razzalieous_log",
@@ -637,7 +637,7 @@
       "name": "RazzalieousFence",
       "type": "block",
       "sortid": 54,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "razzalieous_fence",
@@ -647,7 +647,7 @@
       "name": "RazzalieousFenceGate",
       "type": "block",
       "sortid": 55,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "razzalieous_fence_gate",
@@ -843,7 +843,7 @@
       "name": "RazzanthiumShard",
       "type": "item",
       "sortid": 68,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "razzanthium_shard",
@@ -853,7 +853,7 @@
       "name": "DarkMatterGoop",
       "type": "item",
       "sortid": 71,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "unstable_dark_matter",
@@ -914,6 +914,26 @@
       "ids": {},
       "registry_name": "razzanthium_block",
       "path": "~/Dimensions"
+    },
+    {
+      "name": "RazzantheumRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Stay",
+      "type": "musicdisc",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stay",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -949,6 +969,14 @@
       ],
       "category": "hostile",
       "subtitle": "ah,"
+    },
+    {
+      "name": "staysong",
+      "files": [
+        "the-kid-laroi_-justin-bieber-stay-_lyrics_-_1_"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {

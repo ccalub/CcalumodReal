@@ -37,5 +37,14 @@
         "stream": false
       }
     ]
+  },
+  "staysong": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ccalumod:the-kid-laroi_-justin-bieber-stay-_lyrics_-_1_",
+        "stream": false
+      }
+    ]
   }
 }

@@ -53,6 +53,7 @@ public class CcalumodModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("ccalumod", "razzkelliving")));
 		sounds.put(new ResourceLocation("ccalumod", "razzkelhurts"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("ccalumod", "razzkelhurts")));
+		sounds.put(new ResourceLocation("ccalumod", "staysong"), new net.minecraft.util.SoundEvent(new ResourceLocation("ccalumod", "staysong")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("ccalumod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

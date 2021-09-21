@@ -1,0 +1,26 @@
+{
+  "group": "ccalumod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "ccalumod:razzanthium_shard"
+    },
+    "1": {
+      "item": "ccalumod:razzanthium_shard"
+    },
+    "2": {
+      "item": "ccalumod:razzanthium_shard"
+    },
+    "3": {
+      "item": "ccalumod:razzanthium_shard"
+    }
+  },
+  "result": {
+    "item": "ccalumod:razzantheum_ingot",
+    "count": 1
+  }
+}
