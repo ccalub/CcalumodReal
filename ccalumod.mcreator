@@ -572,6 +572,62 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "RazzantheumArmourArmor",
+      "type": "armor",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_armour_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "RazzantheumArmourArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_armour_armor_helmet_recipe",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "RazzantheumArmourArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_armour_armor_body_recipe",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "RazzantheumArmourArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_armour_armor_leggings_recipe",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "RazzantheumArmourArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_armour_armor_boots_recipe",
+      "path": "~/Tools And Armor"
     }
   ],
   "variable_elements": [],
@@ -616,10 +672,12 @@
       "block.ccalumod.toleronium_ore": "Toleronium Ore",
       "item.ccalumod.sapphire": "Sapphire",
       "entity.ccalumod.razz": "Razz",
+      "item.ccalumod.razzantheum_armour_armor_boots": "RazzantheumArmour Boots",
       "block.ccalumod.razzantheum_ore": "Razzantheum Ore",
       "item.ccalumod.toleronium_shovel": "Toleronium Shovel",
       "item.ccalumod.toleronium_ingot": "Toleronium Ingot",
       "subtitles.razzkeldeath": "frrrrrrrick you pal",
+      "item.ccalumod.razzantheum_armour_armor_helmet": "RazzantheumArmour Helmet",
       "item.ccalumod.ultimanium_dagger": "Ultimanium Dagger",
       "block.ccalumod.ruby_ore": "Ruby Ore",
       "item.ccalumod.ultimanium_pickaxe": "Ultimanium Pickaxe",
@@ -632,6 +690,7 @@
       "subtitles.razzkelhurts": "ah,",
       "item.ccalumod.toleronium_chestplate": "Toleronium Body",
       "item.ccalumod.razz_spawn_egg": "Razz Spawn Egg",
+      "item.ccalumod.razzantheum_armour_armor_chestplate": "RazzantheumArmour Chestplate",
       "itemGroup.tabccalumod": "Ccalumod",
       "item.ccalumod.toleronium_sword": "Toleronium Sword",
       "item.ccalumod.ultimanium_broadsword": "Ultimanium Broadsword",
@@ -645,6 +704,7 @@
       "item.ccalumod.ultimanium_armor_helmet": "Ultimanium Armor Helmet",
       "subtitles.razzkelliving": "Hey! Got any games on yer phone?",
       "item.ccalumod.ultimanium": "Ultimanium",
+      "item.ccalumod.razzantheum_armour_armor_leggings": "RazzantheumArmour Leggings",
       "item.ccalumod.ruby": "Ruby",
       "block.ccalumod.amethyst_ore": "Amethyst Ore",
       "item.ccalumod.toleronium_axe": "Toleronium Axe",
