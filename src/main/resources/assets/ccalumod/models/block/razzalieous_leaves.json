@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ccalumod:blocks/razzalieous_leaves",
+    "up": "ccalumod:blocks/razzalieous_leaves",
+    "north": "ccalumod:blocks/razzalieous_leaves",
+    "east": "ccalumod:blocks/razzalieous_leaves",
+    "south": "ccalumod:blocks/razzalieous_leaves",
+    "west": "ccalumod:blocks/razzalieous_leaves",
+    "particle": "ccalumod:blocks/razzalieous_leaves"
+  }
+}

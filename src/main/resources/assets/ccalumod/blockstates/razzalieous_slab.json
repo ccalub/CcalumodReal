@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ccalumod:block/razzalieous_slab"
+    },
+    "type=top": {
+      "model": "ccalumod:block/razzalieous_slab_top"
+    },
+    "type=double": {
+      "model": "ccalumod:block/razzalieous_slab_full"
+    }
+  }
+}

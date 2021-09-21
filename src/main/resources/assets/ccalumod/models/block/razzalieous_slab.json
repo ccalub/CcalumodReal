@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "ccalumod:blocks/razzalieous_planks",
+    "top": "ccalumod:blocks/razzalieous_planks",
+    "side": "ccalumod:blocks/razzalieous_planks"
+  }
+}

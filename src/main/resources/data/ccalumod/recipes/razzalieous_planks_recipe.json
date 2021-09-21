@@ -1,0 +1,13 @@
+{
+  "group": "ccalumod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:razzalieous_log"
+    }
+  ],
+  "result": {
+    "item": "ccalumod:deleted_mod_element",
+    "count": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "group": "ccalumod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "ccalumod:deleted_mod_element"
+    },
+    "1": {
+      "item": "ccalumod:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "ccalumod:deleted_mod_element",
+    "count": 1
+  }
+}

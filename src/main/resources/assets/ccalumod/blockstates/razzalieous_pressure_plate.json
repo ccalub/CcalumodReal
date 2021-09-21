@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "ccalumod:block/razzalieous_pressure_plate"
+    },
+    "powered=true": {
+      "model": "ccalumod:block/razzalieous_pressure_plate_down"
+    }
+  }
+}
