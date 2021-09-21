@@ -1,19 +1,32 @@
 
 package net.mcreator.ccalumod.gui;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.entity.player.PlayerInventory;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.gui.widget.button.Button;
+import net.minecraft.client.gui.screen.inventory.ContainerScreen;
+import net.minecraft.client.Minecraft;
+
 import net.mcreator.ccalumod.CcalumodMod;
+
+import java.util.HashMap;
+
+import com.mojang.blaze3d.systems.RenderSystem;
+import com.mojang.blaze3d.matrix.MatrixStack;
 
 @OnlyIn(Dist.CLIENT)
 public class MergerGUIGuiWindow extends ContainerScreen<MergerGUIGui.GuiContainerMod> {
-
 	private World world;
 	private int x, y, z;
 	private PlayerEntity entity;
-
 	private final static HashMap guistate = MergerGUIGui.guistate;
-
-	CheckboxButton Merge;
-
 	public MergerGUIGuiWindow(MergerGUIGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
 		super(container, inventory, text);
 		this.world = container.world;
@@ -24,15 +37,12 @@ public class MergerGUIGuiWindow extends ContainerScreen<MergerGUIGui.GuiContaine
 		this.xSize = 176;
 		this.ySize = 166;
 	}
-
 	private static final ResourceLocation texture = new ResourceLocation("ccalumod:textures/merger_gui.png");
-
 	@Override
 	public void render(MatrixStack ms, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(ms);
 		super.render(ms, mouseX, mouseY, partialTicks);
 		this.renderHoveredTooltip(ms, mouseX, mouseY);
-
 	}
 
 	@Override
@@ -40,12 +50,10 @@ public class MergerGUIGuiWindow extends ContainerScreen<MergerGUIGui.GuiContaine
 		RenderSystem.color4f(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-
 		Minecraft.getInstance().getTextureManager().bindTexture(texture);
 		int k = (this.width - this.xSize) / 2;
 		int l = (this.height - this.ySize) / 2;
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
-
 		RenderSystem.disableBlend();
 	}
 
@@ -55,7 +63,6 @@ public class MergerGUIGuiWindow extends ContainerScreen<MergerGUIGui.GuiContaine
 			this.minecraft.player.closeScreen();
 			return true;
 		}
-
 		return super.keyPressed(key, b, c);
 	}
 
@@ -78,10 +85,11 @@ public class MergerGUIGuiWindow extends ContainerScreen<MergerGUIGui.GuiContaine
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-
-		Merge = new CheckboxButton(this.guiLeft + 88, this.guiTop + 32, 150, 20, new StringTextComponent("Merge"), false);
-		MergerGUIGui.guistate.put("checkbox:Merge", Merge);
-		this.addButton(Merge);
+		this.addButton(new Button(this.guiLeft + 78, this.guiTop + 34, 50, 20, new StringTextComponent("Merge"), e -> {
+			if (true) {
+				CcalumodMod.PACKET_HANDLER.sendToServer(new MergerGUIGui.ButtonPressedMessage(0, x, y, z));
+				MergerGUIGui.handleButtonAction(entity, 0, x, y, z);
+			}
+		}));
 	}
-
 }
