@@ -782,6 +782,62 @@
       "ids": {},
       "registry_name": "razzkel_biome",
       "path": "~/Biomes"
+    },
+    {
+      "name": "RazzantheumArmourArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_armour_armor_helmet_recipe",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "RazzantheumArmourArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_armour_armor_leggings_recipe",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "RazzantheumArmourArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_armour_armor_boots_recipe",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "RazzantheumArmourArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_armour_armor_body_recipe",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "RazzantheumArmourArmor",
+      "type": "armor",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_armour_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Tools And Armor"
     }
   ],
   "variable_elements": [],
@@ -822,15 +878,10 @@
   "language_map": {
     "en_us": {
       "block.ccalumod.toleronium_ore": "Toleronium Ore",
-      "block.ccalumod.razzalieous_slab": "Razzalieous Slab",
       "item.ccalumod.toleronium_shovel": "Toleronium Shovel",
-      "block.ccalumod.razzalieous_stairs": "Razzalieous Stairs",
       "item.ccalumod.ultimanium_dagger": "Ultimanium Dagger",
-      "block.ccalumod.razzalieous_wood": "Razzalieous Wood",
-      "block.ccalumod.razzalieous_fence": "Razzalieous Fence",
       "item.ccalumod.toleronium_pickaxe": "Toleronium Pickaxe",
       "item.ccalumod.razzantheum_ingot": "Razzantheum Ingot",
-      "block.ccalumod.razzalieous_leaves": "Razzalieous Leaves",
       "item.ccalumod.toleronium_chestplate": "Toleronium Body",
       "item.ccalumod.ultimanium_broadsword": "Ultimanium Broadsword",
       "item.ccalumod.toleronium_sword": "Toleronium Sword",
@@ -840,7 +891,6 @@
       "item.ccalumod.amethyst": "Amethyst",
       "subtitles.razzkelliving": "Hey! Got any games on yer phone?",
       "item.ccalumod.toleronium_axe": "Toleronium Axe",
-      "block.ccalumod.razzalieous_pressure_plate": "Razzalieous Pressure Plate",
       "item.ccalumod.ultimanium_armor_chestplate": "Ultimanium Armor Body",
       "item.ccalumod.toleronium_leggings": "Toleronium Leggings",
       "item.ccalumod.ultimanium_shovel": "Ultimanium Shovel",
@@ -851,27 +901,22 @@
       "block.ccalumod.razzantheum_ore": "Razzantheum Ore",
       "item.ccalumod.toleronium_ingot": "Toleronium Ingot",
       "subtitles.razzkeldeath": "frrrrrrrick you pal",
-      "block.ccalumod.razzalieous_fence_gate": "Razzalieous Fence Gate",
       "block.ccalumod.ruby_ore": "Ruby Ore",
       "item.ccalumod.ultimanium_pickaxe": "Ultimanium Pickaxe",
       "item.ccalumod.toleronium_helmet": "Toleronium Helmet",
       "item.ccalumod.toler_spawn_egg": "Toler Spawn Egg",
       "item.ccalumod.ultimanium_longsword": "Ultimanium Longsword",
       "block.ccalumod.sapphire_ore": "Sapphire Ore",
-      "block.ccalumod.razzalieous_log": "Razzalieous Log",
       "subtitles.razzkelhurts": "ah,",
-      "biome.ccalumod.razzkel_biome": "Razzkel Biome",
       "item.ccalumod.razz_spawn_egg": "Razz Spawn Egg",
       "itemGroup.tabccalumod": "Ccalumod",
       "enchantment.ccalumod.lifesteal": "Lifesteal",
       "entity.ccalumod.toler": "Toler",
       "block.ccalumod.workstation": "Workstation",
       "item.ccalumod.ultimanium_armor_helmet": "Ultimanium Armor Helmet",
-      "block.ccalumod.razzalieous_button": "Razzalieous Button",
       "item.ccalumod.ultimanium": "Ultimanium",
       "item.ccalumod.ruby": "Ruby",
       "block.ccalumod.amethyst_ore": "Amethyst Ore",
-      "block.ccalumod.razzalieous_planks": "Razzalieous Planks",
       "enchantment.ccalumod.speed": "Speed",
       "item.ccalumod.ultimanium_axe": "Ultimanium Axe",
       "item.ccalumod.razzantheum_pickaxe": "Razzantheum Pickaxe"
@@ -881,18 +926,6 @@
     "name": "~",
     "children": [
       {
-        "name": "Resources",
-        "children": []
-      },
-      {
-        "name": "Tools And Armor",
-        "children": []
-      },
-      {
-        "name": "Blocks",
-        "children": []
-      },
-      {
         "name": "FunctionBlocks",
         "children": []
       },
@@ -901,15 +934,7 @@
         "children": []
       },
       {
-        "name": "Recipes",
-        "children": []
-      },
-      {
-        "name": "Mobs",
-        "children": []
-      },
-      {
-        "name": "Enchantments",
+        "name": "Blocks",
         "children": []
       },
       {
@@ -917,7 +942,7 @@
         "children": []
       },
       {
-        "name": "Biomes",
+        "name": "Tools And Armor",
         "children": []
       },
       {
@@ -925,11 +950,7 @@
         "children": []
       },
       {
-        "name": "Food",
-        "children": []
-      },
-      {
-        "name": "Structures",
+        "name": "Biomes",
         "children": []
       },
       {
@@ -937,7 +958,31 @@
         "children": []
       },
       {
+        "name": "Food",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      },
+      {
+        "name": "Mobs",
+        "children": []
+      },
+      {
         "name": "Wood",
+        "children": []
+      },
+      {
+        "name": "Resources",
+        "children": []
+      },
+      {
+        "name": "Enchantments",
         "children": []
       }
     ]

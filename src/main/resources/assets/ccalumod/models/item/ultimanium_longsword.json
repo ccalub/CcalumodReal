@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "ccalumod:items/ultimanium_longsword"
+    "layer0": "ccalumod:items/ultimaniumlongsword"
   }
 }

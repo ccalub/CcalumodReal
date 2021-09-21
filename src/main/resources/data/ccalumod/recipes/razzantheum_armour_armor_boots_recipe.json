@@ -1,0 +1,26 @@
+{
+  "group": "ccalumod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ccalumod:razzantheum_ingot"
+    },
+    "2": {
+      "item": "ccalumod:razzantheum_ingot"
+    },
+    "3": {
+      "item": "ccalumod:razzantheum_ingot"
+    },
+    "5": {
+      "item": "ccalumod:razzantheum_ingot"
+    }
+  },
+  "result": {
+    "item": "ccalumod:deleted_mod_element_boots",
+    "count": 1
+  }
+}

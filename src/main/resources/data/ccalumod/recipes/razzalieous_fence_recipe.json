@@ -7,26 +7,26 @@
   ],
   "key": {
     "0": {
-      "item": "ccalumod:razzalieous_planks"
+      "item": "ccalumod:deleted_mod_element"
     },
     "1": {
       "item": "minecraft:stick"
     },
     "2": {
-      "item": "ccalumod:razzalieous_planks"
+      "item": "ccalumod:deleted_mod_element"
     },
     "3": {
-      "item": "ccalumod:razzalieous_planks"
+      "item": "ccalumod:deleted_mod_element"
     },
     "4": {
       "item": "minecraft:stick"
     },
     "5": {
-      "item": "ccalumod:razzalieous_planks"
+      "item": "ccalumod:deleted_mod_element"
     }
   },
   "result": {
-    "item": "ccalumod:razzalieous_fence",
+    "item": "ccalumod:deleted_mod_element",
     "count": 3
   }
 }

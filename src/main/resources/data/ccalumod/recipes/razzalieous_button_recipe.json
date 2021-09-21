@@ -3,11 +3,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "ccalumod:razzalieous_planks"
+      "item": "ccalumod:deleted_mod_element"
     }
   ],
   "result": {
-    "item": "ccalumod:razzalieous_button",
+    "item": "ccalumod:deleted_mod_element",
     "count": 1
   }
 }
