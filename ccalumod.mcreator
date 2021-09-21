@@ -540,6 +540,16 @@
       "ids": {},
       "registry_name": "razzantheum_sword",
       "path": "~/Tools And Armor"
+    },
+    {
+      "name": "Razz",
+      "type": "livingentity",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razz",
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [],
@@ -559,6 +569,7 @@
       "subtitles.toler_sound": "",
       "block.ccalumod.toleronium_ore": "Toleronium Ore",
       "item.ccalumod.sapphire": "Sapphire",
+      "entity.ccalumod.razz": "Razz",
       "block.ccalumod.razzantheum_ore": "Razzantheum Ore",
       "item.ccalumod.toleronium_shovel": "Toleronium Shovel",
       "item.ccalumod.toleronium_ingot": "Toleronium Ingot",
@@ -572,6 +583,7 @@
       "block.ccalumod.sapphire_ore": "Sapphire Ore",
       "item.ccalumod.razzantheum_ingot": "Razzantheum Ingot",
       "item.ccalumod.toleronium_chestplate": "Toleronium Body",
+      "item.ccalumod.razz_spawn_egg": "Razz Spawn Egg",
       "itemGroup.tabccalumod": "Ccalumod",
       "item.ccalumod.toleronium_sword": "Toleronium Sword",
       "item.ccalumod.ultimanium_broadsword": "Ultimanium Broadsword",
