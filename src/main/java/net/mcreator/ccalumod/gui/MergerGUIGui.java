@@ -114,15 +114,15 @@ public class MergerGUIGui extends CcalumodModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 61, 35) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 43, 44) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (RazzanthiumShardItem.block == stack.getItem());
 				}
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 35) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 16, 17) {
 			}));
-			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 43, 53) {
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 16, 44) {
 			}));
 			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 43, 17) {
 			}));

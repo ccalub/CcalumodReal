@@ -10,9 +10,11 @@ import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.client.gui.widget.button.CheckboxButton;
+import net.minecraft.client.gui.widget.button.Button;
 import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.Minecraft;
+
+import net.mcreator.ccalumod.CcalumodMod;
 
 import java.util.HashMap;
 
@@ -25,7 +27,6 @@ public class MergerGUIGuiWindow extends ContainerScreen<MergerGUIGui.GuiContaine
 	private int x, y, z;
 	private PlayerEntity entity;
 	private final static HashMap guistate = MergerGUIGui.guistate;
-	CheckboxButton Merge;
 	public MergerGUIGuiWindow(MergerGUIGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
 		super(container, inventory, text);
 		this.world = container.world;
@@ -84,8 +85,11 @@ public class MergerGUIGuiWindow extends ContainerScreen<MergerGUIGui.GuiContaine
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		Merge = new CheckboxButton(this.guiLeft + 88, this.guiTop + 32, 150, 20, new StringTextComponent("Merge"), false);
-		MergerGUIGui.guistate.put("checkbox:Merge", Merge);
-		this.addButton(Merge);
+		this.addButton(new Button(this.guiLeft + 78, this.guiTop + 34, 50, 20, new StringTextComponent("Merge"), e -> {
+			if (true) {
+				CcalumodMod.PACKET_HANDLER.sendToServer(new MergerGUIGui.ButtonPressedMessage(0, x, y, z));
+				MergerGUIGui.handleButtonAction(entity, 0, x, y, z);
+			}
+		}));
 	}
 }
