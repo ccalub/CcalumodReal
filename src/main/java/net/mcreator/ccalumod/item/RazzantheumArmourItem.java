@@ -19,7 +19,7 @@ import net.minecraft.entity.Entity;
 import net.mcreator.ccalumod.CcalumodModElements;
 
 @CcalumodModElements.ModElement.Tag
-public class RazzantheumArmourArmorItem extends CcalumodModElements.ModElement {
+public class RazzantheumArmourItem extends CcalumodModElements.ModElement {
 	@ObjectHolder("ccalumod:razzantheum_armour_helmet")
 	public static final Item helmet = null;
 	@ObjectHolder("ccalumod:razzantheum_armour_chestplate")
@@ -28,8 +28,8 @@ public class RazzantheumArmourArmorItem extends CcalumodModElements.ModElement {
 	public static final Item legs = null;
 	@ObjectHolder("ccalumod:razzantheum_armour_boots")
 	public static final Item boots = null;
-	public RazzantheumArmourArmorItem(CcalumodModElements instance) {
-		super(instance, 48);
+	public RazzantheumArmourItem(CcalumodModElements instance) {
+		super(instance, 72);
 	}
 
 	@Override
@@ -57,7 +57,7 @@ public class RazzantheumArmourArmorItem extends CcalumodModElements.ModElement {
 
 			@Override
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(), new ItemStack(RazzantheumIngotItem.block));
+				return Ingredient.fromStacks(new ItemStack(RazzantheumIngotItem.block));
 			}
 
 			@OnlyIn(Dist.CLIENT)

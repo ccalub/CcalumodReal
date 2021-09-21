@@ -614,22 +614,6 @@
       "path": "~/Tools And Armor"
     },
     {
-      "name": "RazzantheumArmourArmor",
-      "type": "armor",
-      "sortid": 48,
-      "compiles": false,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "razzantheum_armour",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      },
-      "path": "~/Tools And Armor"
-    },
-    {
       "name": "RazzkelBiome",
       "type": "biome",
       "sortid": 48,
@@ -878,6 +862,42 @@
       "ids": {},
       "registry_name": "unstable_dark_matter",
       "path": "~/Resources"
+    },
+    {
+      "name": "RazzantheumArmour",
+      "type": "armor",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_armour",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "RazzanthiumBlock",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzanthium_block",
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "Razzantheum",
+      "type": "achievement",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum",
+      "path": "~/Achivements"
     }
   ],
   "variable_elements": [],
@@ -919,24 +939,27 @@
     "en_us": {
       "item.ccalumod.razzantheum_armour_boots": "Razzantheum Boots",
       "block.ccalumod.toleronium_ore": "Toleronium Ore",
-      "block.ccalumod.razzalieous_slab": "Razzalieous Slab",
       "item.ccalumod.toleronium_shovel": "Toleronium Shovel",
+      "block.ccalumod.razzalieous_slab": "Razzalieous Slab",
       "block.ccalumod.razzalieous_stairs": "Razzalieous Stairs",
       "item.ccalumod.razzantheum_armour_leggings": "Razzantheum Leggings",
+      "advancements.razzantheum.title": "Chernobyl Stick",
       "item.ccalumod.razzantheum_armour_chestplate": "Razzantheum Chestplate",
       "item.ccalumod.ultimanium_dagger": "Ultimanium Dagger",
       "block.ccalumod.razzalieous_wood": "Razzalieous Wood",
       "block.ccalumod.razzalieous_fence": "Razzalieous Fence",
-      "item.ccalumod.toleronium_pickaxe": "Toleronium Pickaxe",
       "item.ccalumod.razzantheum_ingot": "Razzantheum Ingot",
+      "item.ccalumod.toleronium_pickaxe": "Toleronium Pickaxe",
       "block.ccalumod.razzalieous_leaves": "Razzalieous Leaves",
       "item.ccalumod.toleronium_chestplate": "Toleronium Body",
-      "item.ccalumod.toleronium_sword": "Toleronium Sword",
       "item.ccalumod.ultimanium_broadsword": "Ultimanium Broadsword",
+      "item.ccalumod.toleronium_sword": "Toleronium Sword",
       "item.ccalumod.ultimanium_armor_leggings": "Ultimanium Armor Leggings",
       "item.ccalumod.ultimanium_armor_boots": "Ultimanium Armor Boots",
       "item.ccalumod.razzantheum_armour_helmet": "Razzantheum Helmet",
       "item.ccalumod.toleronium_boots": "Toleronium Boots",
+      "block.ccalumod.razzanthium_block": "Razzanthium Block",
+      "advancements.razzantheum.descr": "Get a Razzantheum sword!",
       "item.ccalumod.amethyst": "Amethyst",
       "subtitles.razzkelliving": "Hey! Got any games on yer phone?",
       "item.ccalumod.toleronium_axe": "Toleronium Axe",
@@ -1041,6 +1064,10 @@
       },
       {
         "name": "Enchantments",
+        "children": []
+      },
+      {
+        "name": "Achivements",
         "children": []
       }
     ]
