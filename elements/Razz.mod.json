@@ -13,7 +13,7 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -26215,
+      "value": -52429,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
@@ -80,13 +80,13 @@
       "value": "CUSTOM:RazzantheumSword"
     },
     "livingSound": {
-      "value": ""
+      "value": "CUSTOM:razzkelliving"
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "CUSTOM:razzkelhurts"
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "CUSTOM:razzkeldeath"
     },
     "stepSound": {
       "value": ""
