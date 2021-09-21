@@ -34,11 +34,16 @@ import net.minecraft.entity.MobEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityClassification;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
 
+import net.mcreator.ccalumod.procedures.RazzDropsProcedure;
 import net.mcreator.ccalumod.item.RazzantheumSwordItem;
 import net.mcreator.ccalumod.entity.renderer.RazzRenderer;
 import net.mcreator.ccalumod.CcalumodModElements;
+
+import java.util.Map;
+import java.util.HashMap;
 
 @CcalumodModElements.ModElement.Tag
 public class RazzEntity extends CcalumodModElements.ModElement {
@@ -134,6 +139,22 @@ public class RazzEntity extends CcalumodModElements.ModElement {
 			if (source == DamageSource.FALL)
 				return false;
 			return super.attackEntityFrom(source, amount);
+		}
+
+		@Override
+		public void onDeath(DamageSource source) {
+			super.onDeath(source);
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			Entity sourceentity = source.getTrueSource();
+			Entity entity = this;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("world", world);
+				RazzDropsProcedure.executeProcedure($_dependencies);
+			}
 		}
 	}
 }
