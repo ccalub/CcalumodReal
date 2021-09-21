@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "ccalumod:block/razzalieous_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "ccalumod:block/razzalieous_log"
+    },
+    "axis=z": {
+      "model": "ccalumod:block/razzalieous_log",
+      "x": 90
+    }
+  }
+}

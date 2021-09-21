@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ccalumod:blocks/razzalieous_planks",
+    "particle": "ccalumod:blocks/razzalieous_planks"
+  }
+}

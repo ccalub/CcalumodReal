@@ -1,0 +1,26 @@
+{
+  "group": "ccalumod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "ccalumod:razzalieous_log"
+    },
+    "1": {
+      "item": "ccalumod:razzalieous_log"
+    },
+    "2": {
+      "item": "ccalumod:razzalieous_log"
+    },
+    "3": {
+      "item": "ccalumod:razzalieous_log"
+    }
+  },
+  "result": {
+    "item": "ccalumod:razzalieous_wood",
+    "count": 3
+  }
+}

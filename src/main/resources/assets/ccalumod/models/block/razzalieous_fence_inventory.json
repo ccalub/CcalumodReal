@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "ccalumod:blocks/razzalieous_planks",
+    "particle": "ccalumod:blocks/razzalieous_planks"
+  }
+}
