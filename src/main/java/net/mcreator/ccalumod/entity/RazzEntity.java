@@ -11,9 +11,11 @@ import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.common.MinecraftForge;
 
+import net.minecraft.world.server.ServerBossInfo;
 import net.minecraft.world.gen.Heightmap;
 import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.World;
+import net.minecraft.world.BossInfo;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.network.IPacket;
@@ -22,9 +24,12 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
+import net.minecraft.entity.ai.goal.WaterAvoidingRandomWalkingGoal;
 import net.minecraft.entity.ai.goal.SwimGoal;
-import net.minecraft.entity.ai.goal.RandomWalkingGoal;
+import net.minecraft.entity.ai.goal.NearestAttackableTargetGoal;
 import net.minecraft.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
 import net.minecraft.entity.ai.goal.HurtByTargetGoal;
@@ -56,12 +61,12 @@ public class RazzEntity extends CcalumodModElements.ModElement {
 	public void initElements() {
 		elements.entities.add(() -> entity);
 		elements.items.add(
-				() -> new SpawnEggItem(entity, -52429, -13434880, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("razz_spawn_egg"));
+				() -> new SpawnEggItem(entity, -13369600, -10027162, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("razz_spawn_egg"));
 	}
 
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(EntityClassification.MONSTER).add(new MobSpawnInfo.Spawners(entity, 20, 4, 4));
+		event.getSpawns().getSpawner(EntityClassification.MONSTER).add(new MobSpawnInfo.Spawners(entity, 20, 1, 1));
 	}
 
 	@Override
@@ -102,11 +107,12 @@ public class RazzEntity extends CcalumodModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false));
-			this.goalSelector.addGoal(2, new RandomWalkingGoal(this, 1));
-			this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
-			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
-			this.goalSelector.addGoal(5, new SwimGoal(this));
+			this.goalSelector.addGoal(1, new SwimGoal(this));
+			this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, PlayerEntity.class, true, true));
+			this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 0.7, false));
+			this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
+			this.goalSelector.addGoal(5, new WaterAvoidingRandomWalkingGoal(this, 0.8));
+			this.goalSelector.addGoal(6, new LookRandomlyGoal(this));
 		}
 
 		@Override
@@ -139,6 +145,29 @@ public class RazzEntity extends CcalumodModElements.ModElement {
 			if (source == DamageSource.FALL)
 				return false;
 			return super.attackEntityFrom(source, amount);
+		}
+
+		@Override
+		public boolean isNonBoss() {
+			return false;
+		}
+		private final ServerBossInfo bossInfo = new ServerBossInfo(this.getDisplayName(), BossInfo.Color.GREEN, BossInfo.Overlay.PROGRESS);
+		@Override
+		public void addTrackingPlayer(ServerPlayerEntity player) {
+			super.addTrackingPlayer(player);
+			this.bossInfo.addPlayer(player);
+		}
+
+		@Override
+		public void removeTrackingPlayer(ServerPlayerEntity player) {
+			super.removeTrackingPlayer(player);
+			this.bossInfo.removePlayer(player);
+		}
+
+		@Override
+		public void updateAITasks() {
+			super.updateAITasks();
+			this.bossInfo.setPercent(this.getHealth() / this.getMaxHealth());
 		}
 	}
 }
