@@ -822,14 +822,14 @@
   "language_map": {
     "en_us": {
       "block.ccalumod.toleronium_ore": "Toleronium Ore",
-      "item.ccalumod.toleronium_shovel": "Toleronium Shovel",
       "block.ccalumod.razzalieous_slab": "Razzalieous Slab",
+      "item.ccalumod.toleronium_shovel": "Toleronium Shovel",
       "block.ccalumod.razzalieous_stairs": "Razzalieous Stairs",
       "item.ccalumod.ultimanium_dagger": "Ultimanium Dagger",
       "block.ccalumod.razzalieous_wood": "Razzalieous Wood",
       "block.ccalumod.razzalieous_fence": "Razzalieous Fence",
-      "item.ccalumod.razzantheum_ingot": "Razzantheum Ingot",
       "item.ccalumod.toleronium_pickaxe": "Toleronium Pickaxe",
+      "item.ccalumod.razzantheum_ingot": "Razzantheum Ingot",
       "block.ccalumod.razzalieous_leaves": "Razzalieous Leaves",
       "item.ccalumod.toleronium_chestplate": "Toleronium Body",
       "item.ccalumod.ultimanium_broadsword": "Ultimanium Broadsword",
