@@ -7,7 +7,7 @@ import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.ccalumod.item.RazzkelSnaxItem;
+import net.mcreator.ccalumod.item.StabilizedDarkMatterItem;
 import net.mcreator.ccalumod.item.DarkMatterGoopItem;
 import net.mcreator.ccalumod.CcalumodMod;
 
@@ -116,7 +116,7 @@ public class StabilizerStabilizeProcedure {
 							if (_current instanceof Supplier) {
 								Object invobj = ((Supplier) _current).get();
 								if (invobj instanceof Map) {
-									ItemStack _setstack = new ItemStack(RazzkelSnaxItem.block);
+									ItemStack _setstack = new ItemStack(StabilizedDarkMatterItem.block);
 									_setstack.setCount((int) ((new Object() {
 										public int getAmount(int sltid) {
 											if (entity instanceof ServerPlayerEntity) {

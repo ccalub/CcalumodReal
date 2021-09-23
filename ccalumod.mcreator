@@ -887,7 +887,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "razzantheum",
-      "path": "~/Achivements"
+      "path": "~/Achievments"
     },
     {
       "name": "RazzanthiumBlock",
@@ -1251,7 +1251,7 @@
         "children": []
       },
       {
-        "name": "Achivements",
+        "name": "Achievments",
         "children": []
       },
       {
