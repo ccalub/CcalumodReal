@@ -791,7 +791,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "razzantheum_armour_armor_helmet_recipe",
-      "path": "~/Tools And Armor"
+      "path": "~/Recipes"
     },
     {
       "name": "RazzantheumArmourArmorLeggingsRecipe",
@@ -801,7 +801,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "razzantheum_armour_armor_leggings_recipe",
-      "path": "~/Tools And Armor"
+      "path": "~/Recipes"
     },
     {
       "name": "RazzantheumArmourArmorBootsRecipe",
@@ -811,7 +811,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "razzantheum_armour_armor_boots_recipe",
-      "path": "~/Tools And Armor"
+      "path": "~/Recipes"
     },
     {
       "name": "RazzantheumArmourArmorBodyRecipe",
@@ -821,7 +821,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "razzantheum_armour_armor_body_recipe",
-      "path": "~/Tools And Armor"
+      "path": "~/Recipes"
     },
     {
       "name": "RazzanthiumShard",
@@ -956,16 +956,6 @@
       "path": "~/Procedures"
     },
     {
-      "name": "Regeneration",
-      "type": "enchantment",
-      "sortid": 88,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "regeneration",
-      "path": "~/Enchantments"
-    },
-    {
       "name": "BlankRecord",
       "type": "item",
       "sortid": 91,
@@ -1024,24 +1014,6 @@
       "path": "~/Enchantments"
     },
     {
-      "name": "ChestplateProcedure",
-      "type": "procedure",
-      "sortid": 89,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "chestplate_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Enchantments"
-    },
-    {
       "name": "StabilizerGUI",
       "type": "gui",
       "sortid": 83,
@@ -1070,6 +1042,34 @@
       "ids": {},
       "registry_name": "stabilized_dark_matter",
       "path": "~/Resources"
+    },
+    {
+      "name": "Enlightenment",
+      "type": "enchantment",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enlightenment",
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "ChestplateProcedure",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chestplate_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchantments"
     }
   ],
   "variable_elements": [],
@@ -1171,7 +1171,6 @@
       "item.ccalumod.ultimanium_shovel": "Ultimanium Shovel",
       "item.ccalumod.razzantheum_sword": "Razzantheum Sword",
       "subtitles.toler_sound": "",
-      "enchantment.ccalumod.regeneration": "Regeneration",
       "item.ccalumod.sapphire": "Sapphire",
       "entity.ccalumod.razz": "Razz",
       "block.ccalumod.razzantheum_ore": "Razzantheum Ore",
@@ -1203,6 +1202,7 @@
       "item.ccalumod.ultimanium": "Ultimanium",
       "item.ccalumod.unstable_dark_matter": "Dark Matter Goop",
       "item.ccalumod.stay": "Stay",
+      "enchantment.ccalumod.enlightenment": "Enlightenment",
       "item.ccalumod.ruby": "Ruby",
       "block.ccalumod.amethyst_ore": "Amethyst Ore",
       "block.ccalumod.razzalieous_planks": "Razzalieous Planks",

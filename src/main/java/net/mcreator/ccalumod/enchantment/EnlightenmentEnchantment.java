@@ -14,20 +14,20 @@ import net.mcreator.ccalumod.item.RazzantheumArmourItem;
 import net.mcreator.ccalumod.CcalumodModElements;
 
 @CcalumodModElements.ModElement.Tag
-public class RegenerationEnchantment extends CcalumodModElements.ModElement {
-	@ObjectHolder("ccalumod:regeneration")
+public class EnlightenmentEnchantment extends CcalumodModElements.ModElement {
+	@ObjectHolder("ccalumod:enlightenment")
 	public static final Enchantment enchantment = null;
-	public RegenerationEnchantment(CcalumodModElements instance) {
-		super(instance, 88);
+	public EnlightenmentEnchantment(CcalumodModElements instance) {
+		super(instance, 94);
 	}
 
 	@Override
 	public void initElements() {
-		elements.enchantments.add(() -> new CustomEnchantment(EquipmentSlotType.MAINHAND).setRegistryName("regeneration"));
+		elements.enchantments.add(() -> new CustomEnchantment(EquipmentSlotType.MAINHAND).setRegistryName("enlightenment"));
 	}
 	public static class CustomEnchantment extends Enchantment {
 		public CustomEnchantment(EquipmentSlotType... slots) {
-			super(Enchantment.Rarity.RARE, EnchantmentType.BREAKABLE, slots);
+			super(Enchantment.Rarity.RARE, EnchantmentType.ARMOR_CHEST, slots);
 		}
 
 		@Override
@@ -37,7 +37,7 @@ public class RegenerationEnchantment extends CcalumodModElements.ModElement {
 
 		@Override
 		public int getMaxLevel() {
-			return 1;
+			return 2;
 		}
 
 		@Override
