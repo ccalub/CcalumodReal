@@ -956,6 +956,46 @@
       "path": "~/Procedures"
     },
     {
+      "name": "Regeneration",
+      "type": "enchantment",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "regeneration",
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "BlankRecord",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blank_record",
+      "path": "~/Items"
+    },
+    {
+      "name": "RazzanthiusBeast",
+      "type": "livingentity",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzanthius_beast",
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Stabilizer",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stabilizer",
+      "path": "~/FunctionBlocks"
+    },
+    {
       "name": "StabilizerStabilize",
       "type": "procedure",
       "sortid": 82,
@@ -974,26 +1014,6 @@
       "path": "~/Procedures"
     },
     {
-      "name": "StabilizerGUI",
-      "type": "gui",
-      "sortid": 83,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "stabilizer_gui",
-      "path": "~/GUI"
-    },
-    {
-      "name": "Stabilizer",
-      "type": "block",
-      "sortid": 84,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "stabilizer",
-      "path": "~/FunctionBlocks"
-    },
-    {
       "name": "JumpBoost",
       "type": "enchantment",
       "sortid": 87,
@@ -1001,16 +1021,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "jump_boost",
-      "path": "~/Enchantments"
-    },
-    {
-      "name": "Regeneration",
-      "type": "enchantment",
-      "sortid": 88,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "regeneration",
       "path": "~/Enchantments"
     },
     {
@@ -1032,24 +1042,14 @@
       "path": "~/Enchantments"
     },
     {
-      "name": "RazzanthiusBeast",
-      "type": "livingentity",
-      "sortid": 90,
+      "name": "StabilizerGUI",
+      "type": "gui",
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "razzanthius_beast",
-      "path": "~/Mobs"
-    },
-    {
-      "name": "BlankRecord",
-      "type": "item",
-      "sortid": 91,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "blank_record",
-      "path": "~/Items"
+      "registry_name": "stabilizer_gui",
+      "path": "~/GUI"
     },
     {
       "name": "BlankRecordRecipe",
@@ -1138,12 +1138,12 @@
       "entity.ccalumod.razzanthius_beast": "Razzanthius Beast",
       "block.ccalumod.razzalieous_wood": "Razzalieous Wood",
       "block.ccalumod.razzalieous_fence": "Razzalieous Fence",
-      "item.ccalumod.toleronium_pickaxe": "Toleronium Pickaxe",
       "item.ccalumod.razzantheum_ingot": "Razzantheum Ingot",
+      "item.ccalumod.toleronium_pickaxe": "Toleronium Pickaxe",
       "block.ccalumod.razzalieous_leaves": "Razzalieous Leaves",
       "item.ccalumod.toleronium_chestplate": "Toleronium Body",
-      "item.ccalumod.toleronium_sword": "Toleronium Sword",
       "item.ccalumod.ultimanium_broadsword": "Ultimanium Broadsword",
+      "item.ccalumod.toleronium_sword": "Toleronium Sword",
       "item.ccalumod.ultimanium_armor_leggings": "Ultimanium Armor Leggings",
       "item.ccalumod.ultimanium_armor_boots": "Ultimanium Armor Boots",
       "item.ccalumod.razzantheum_armour_helmet": "Razzantheum Helmet",
@@ -1181,6 +1181,7 @@
       "item.ccalumod.razz_spawn_egg": "Razz Spawn Egg",
       "itemGroup.tabccalumod": "Ccalumod",
       "enchantment.ccalumod.lifesteal": "Lifesteal",
+      "item.ccalumod.stay.desc": "The Kid LAROI ft. Justin Bieber",
       "item.ccalumod.razzanthius_beast_spawn_egg": "Razzanthius Beast Spawn Egg",
       "entity.ccalumod.toler": "Toler",
       "item.ccalumod.razzanthium_shard": "Razzanthium Shard",
@@ -1190,6 +1191,7 @@
       "enchantment.ccalumod.jump_boost": "Jump Boost",
       "item.ccalumod.ultimanium": "Ultimanium",
       "item.ccalumod.unstable_dark_matter": "Dark Matter Goop",
+      "item.ccalumod.stay": "Stay",
       "item.ccalumod.ruby": "Ruby",
       "block.ccalumod.amethyst_ore": "Amethyst Ore",
       "block.ccalumod.razzalieous_planks": "Razzalieous Planks",
@@ -1234,6 +1236,10 @@
         "children": []
       },
       {
+        "name": "Items",
+        "children": []
+      },
+      {
         "name": "Achivements",
         "children": []
       },
@@ -1267,10 +1273,6 @@
       },
       {
         "name": "Enchantments",
-        "children": []
-      },
-      {
-        "name": "Items",
         "children": []
       }
     ]
