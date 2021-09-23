@@ -1060,6 +1060,16 @@
       "ids": {},
       "registry_name": "blank_record_recipe",
       "path": "~/Recipes"
+    },
+    {
+      "name": "StabilizedDarkMatter",
+      "type": "item",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stabilized_dark_matter",
+      "path": "~/Resources"
     }
   ],
   "variable_elements": [],
@@ -1133,6 +1143,7 @@
       "block.ccalumod.razzalieous_stairs": "Razzalieous Stairs",
       "advancements.razzantheum.title": "Chernobyl Stick",
       "item.ccalumod.razzantheum_armour_chestplate": "Razzantheum Chestplate",
+      "item.ccalumod.stabilized_dark_matter": "Stabilized Dark Matter",
       "item.ccalumod.ultimanium_dagger": "Ultimanium Dagger",
       "block.ccalumod.merger": "Merger",
       "block.ccalumod.razzalieous_wood": "Razzalieous Wood",
