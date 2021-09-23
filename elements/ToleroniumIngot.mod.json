@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "toleronium_ingot",
+    "texture": "toleronium_ingot_2",
     "customModelName": "Normal",
     "name": "Toleronium Ingot",
     "rarity": "COMMON",

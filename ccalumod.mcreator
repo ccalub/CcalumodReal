@@ -910,16 +910,6 @@
       "path": "~/Recipes"
     },
     {
-      "name": "Stay",
-      "type": "musicdisc",
-      "sortid": 77,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "stay",
-      "path": "~/Recipes"
-    },
-    {
       "name": "MergerMerge",
       "type": "procedure",
       "sortid": 79,
@@ -966,16 +956,6 @@
       "path": "~/Procedures"
     },
     {
-      "name": "Stabilizer",
-      "type": "gui",
-      "sortid": 81,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "stabilizer_g_u_i",
-      "path": "~/GUI"
-    },
-    {
       "name": "StabilizerStabilize",
       "type": "procedure",
       "sortid": 82,
@@ -992,6 +972,94 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "StabilizerGUI",
+      "type": "gui",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stabilizer_gui",
+      "path": "~/GUI"
+    },
+    {
+      "name": "Stabilizer",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stabilizer",
+      "path": "~/FunctionBlocks"
+    },
+    {
+      "name": "JumpBoost",
+      "type": "enchantment",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jump_boost",
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "Regeneration",
+      "type": "enchantment",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "regeneration",
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "ChestplateProcedure",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chestplate_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "RazzanthiusBeast",
+      "type": "livingentity",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzanthius_beast",
+      "path": "~/Mobs"
+    },
+    {
+      "name": "BlankRecord",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blank_record",
+      "path": "~/Items"
+    },
+    {
+      "name": "BlankRecordRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blank_record_recipe",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -1035,24 +1103,43 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "smokesong",
+      "files": [
+        "smoke-ben-folds-five"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "selfless_song",
+      "files": [
+        "ben-folds-five-selfless_-cold-and-composed-_explicit_-_1997-cd-audio_"
+      ],
+      "category": "record",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
       "item.ccalumod.razzantheum_armour_boots": "Razzantheum Boots",
       "block.ccalumod.toleronium_ore": "Toleronium Ore",
-      "item.ccalumod.toleronium_shovel": "Toleronium Shovel",
+      "block.ccalumod.stabilizer": "Stabilizer",
       "block.ccalumod.razzalieous_slab": "Razzalieous Slab",
+      "item.ccalumod.toleronium_shovel": "Toleronium Shovel",
+      "item.ccalumod.blank_record": "Blank Record",
       "item.ccalumod.razzantheum_armour_leggings": "Razzantheum Leggings",
       "block.ccalumod.razzalieous_stairs": "Razzalieous Stairs",
       "advancements.razzantheum.title": "Chernobyl Stick",
       "item.ccalumod.razzantheum_armour_chestplate": "Razzantheum Chestplate",
       "item.ccalumod.ultimanium_dagger": "Ultimanium Dagger",
       "block.ccalumod.merger": "Merger",
+      "entity.ccalumod.razzanthius_beast": "Razzanthius Beast",
       "block.ccalumod.razzalieous_wood": "Razzalieous Wood",
       "block.ccalumod.razzalieous_fence": "Razzalieous Fence",
-      "item.ccalumod.razzantheum_ingot": "Razzantheum Ingot",
       "item.ccalumod.toleronium_pickaxe": "Toleronium Pickaxe",
+      "item.ccalumod.razzantheum_ingot": "Razzantheum Ingot",
       "block.ccalumod.razzalieous_leaves": "Razzalieous Leaves",
       "item.ccalumod.toleronium_chestplate": "Toleronium Body",
       "item.ccalumod.toleronium_sword": "Toleronium Sword",
@@ -1068,10 +1155,12 @@
       "item.ccalumod.toleronium_axe": "Toleronium Axe",
       "block.ccalumod.razzalieous_pressure_plate": "Razzalieous Pressure Plate",
       "item.ccalumod.ultimanium_armor_chestplate": "Ultimanium Armor Body",
+      "subtitles.selfless_song": "",
       "item.ccalumod.toleronium_leggings": "Toleronium Leggings",
       "item.ccalumod.ultimanium_shovel": "Ultimanium Shovel",
       "item.ccalumod.razzantheum_sword": "Razzantheum Sword",
       "subtitles.toler_sound": "",
+      "enchantment.ccalumod.regeneration": "Regeneration",
       "item.ccalumod.sapphire": "Sapphire",
       "entity.ccalumod.razz": "Razz",
       "block.ccalumod.razzantheum_ore": "Razzantheum Ore",
@@ -1087,19 +1176,20 @@
       "block.ccalumod.sapphire_ore": "Sapphire Ore",
       "block.ccalumod.razzalieous_log": "Razzalieous Log",
       "subtitles.razzkelhurts": "ah,",
+      "subtitles.smokesong": "",
       "biome.ccalumod.razzkel_biome": "Razzkel Biome",
       "item.ccalumod.razz_spawn_egg": "Razz Spawn Egg",
       "itemGroup.tabccalumod": "Ccalumod",
       "enchantment.ccalumod.lifesteal": "Lifesteal",
-      "item.ccalumod.stay.desc": "The Kid LAROI ft. Justin Bieber",
+      "item.ccalumod.razzanthius_beast_spawn_egg": "Razzanthius Beast Spawn Egg",
       "entity.ccalumod.toler": "Toler",
       "item.ccalumod.razzanthium_shard": "Razzanthium Shard",
       "block.ccalumod.workstation": "Workstation",
       "item.ccalumod.ultimanium_armor_helmet": "Ultimanium Armor Helmet",
       "block.ccalumod.razzalieous_button": "Razzalieous Button",
+      "enchantment.ccalumod.jump_boost": "Jump Boost",
       "item.ccalumod.ultimanium": "Ultimanium",
       "item.ccalumod.unstable_dark_matter": "Dark Matter Goop",
-      "item.ccalumod.stay": "Stay",
       "item.ccalumod.ruby": "Ruby",
       "block.ccalumod.amethyst_ore": "Amethyst Ore",
       "block.ccalumod.razzalieous_planks": "Razzalieous Planks",
@@ -1177,6 +1267,10 @@
       },
       {
         "name": "Enchantments",
+        "children": []
+      },
+      {
+        "name": "Items",
         "children": []
       }
     ]

@@ -10,6 +10,9 @@
     "textureLeggings": "toleronium_leggings",
     "enableBoots": true,
     "textureBoots": "toleronium_boots",
+    "onBodyTick": {
+      "name": "ChestplateProcedure"
+    },
     "onBootsTick": {
       "name": "BootsProcedure"
     },

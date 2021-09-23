@@ -18,6 +18,7 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
+import net.mcreator.ccalumod.procedures.ChestplateProcedureProcedure;
 import net.mcreator.ccalumod.procedures.BootsProcedureProcedure;
 import net.mcreator.ccalumod.CcalumodModElements;
 
@@ -92,6 +93,18 @@ public class ToleroniumItem extends CcalumodModElements.ModElement {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "ccalumod:textures/models/armor/toleroniumarmor2_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+			}
+
+			@Override
+			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
+					ChestplateProcedureProcedure.executeProcedure($_dependencies);
+				}
 			}
 		}.setRegistryName("toleronium_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
