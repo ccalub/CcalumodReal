@@ -1,17 +1,32 @@
 
 package net.mcreator.ccalumod.gui;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.entity.player.PlayerInventory;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.gui.widget.button.Button;
+import net.minecraft.client.gui.screen.inventory.ContainerScreen;
+import net.minecraft.client.Minecraft;
+
 import net.mcreator.ccalumod.CcalumodMod;
+
+import java.util.HashMap;
+
+import com.mojang.blaze3d.systems.RenderSystem;
+import com.mojang.blaze3d.matrix.MatrixStack;
 
 @OnlyIn(Dist.CLIENT)
 public class StabilizerGUIGuiWindow extends ContainerScreen<StabilizerGUIGui.GuiContainerMod> {
-
 	private World world;
 	private int x, y, z;
 	private PlayerEntity entity;
-
 	private final static HashMap guistate = StabilizerGUIGui.guistate;
-
 	public StabilizerGUIGuiWindow(StabilizerGUIGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
 		super(container, inventory, text);
 		this.world = container.world;
@@ -22,15 +37,12 @@ public class StabilizerGUIGuiWindow extends ContainerScreen<StabilizerGUIGui.Gui
 		this.xSize = 176;
 		this.ySize = 166;
 	}
-
 	private static final ResourceLocation texture = new ResourceLocation("ccalumod:textures/stabilizer_gui.png");
-
 	@Override
 	public void render(MatrixStack ms, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(ms);
 		super.render(ms, mouseX, mouseY, partialTicks);
 		this.renderHoveredTooltip(ms, mouseX, mouseY);
-
 	}
 
 	@Override
@@ -38,15 +50,12 @@ public class StabilizerGUIGuiWindow extends ContainerScreen<StabilizerGUIGui.Gui
 		RenderSystem.color4f(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-
 		Minecraft.getInstance().getTextureManager().bindTexture(texture);
 		int k = (this.width - this.xSize) / 2;
 		int l = (this.height - this.ySize) / 2;
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
-
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("ccalumod:textures/ingot_outline.png"));
 		this.blit(ms, this.guiLeft + 16, this.guiTop + 17, 0, 0, 16, 16, 16, 16);
-
 		RenderSystem.disableBlend();
 	}
 
@@ -56,7 +65,6 @@ public class StabilizerGUIGuiWindow extends ContainerScreen<StabilizerGUIGui.Gui
 			this.minecraft.player.closeScreen();
 			return true;
 		}
-
 		return super.keyPressed(key, b, c);
 	}
 
@@ -80,7 +88,6 @@ public class StabilizerGUIGuiWindow extends ContainerScreen<StabilizerGUIGui.Gui
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-
 		this.addButton(new Button(this.guiLeft + 60, this.guiTop + 34, 50, 20, new StringTextComponent("Stabilize"), e -> {
 			if (true) {
 				CcalumodMod.PACKET_HANDLER.sendToServer(new StabilizerGUIGui.ButtonPressedMessage(0, x, y, z));
@@ -88,5 +95,4 @@ public class StabilizerGUIGuiWindow extends ContainerScreen<StabilizerGUIGui.Gui
 			}
 		}));
 	}
-
 }

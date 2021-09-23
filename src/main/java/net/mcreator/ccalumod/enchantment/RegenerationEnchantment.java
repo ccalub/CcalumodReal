@@ -1,12 +1,22 @@
 
 package net.mcreator.ccalumod.enchantment;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.ItemStack;
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.enchantment.EnchantmentType;
+import net.minecraft.enchantment.Enchantment;
+
+import net.mcreator.ccalumod.item.UltimaniumArmorItem;
+import net.mcreator.ccalumod.item.ToleroniumItem;
+import net.mcreator.ccalumod.item.RazzantheumArmourItem;
+import net.mcreator.ccalumod.CcalumodModElements;
+
 @CcalumodModElements.ModElement.Tag
 public class RegenerationEnchantment extends CcalumodModElements.ModElement {
-
 	@ObjectHolder("ccalumod:regeneration")
 	public static final Enchantment enchantment = null;
-
 	public RegenerationEnchantment(CcalumodModElements instance) {
 		super(instance, 88);
 	}
@@ -15,9 +25,7 @@ public class RegenerationEnchantment extends CcalumodModElements.ModElement {
 	public void initElements() {
 		elements.enchantments.add(() -> new CustomEnchantment(EquipmentSlotType.MAINHAND).setRegistryName("regeneration"));
 	}
-
 	public static class CustomEnchantment extends Enchantment {
-
 		public CustomEnchantment(EquipmentSlotType... slots) {
 			super(Enchantment.Rarity.RARE, EnchantmentType.BREAKABLE, slots);
 		}
@@ -67,7 +75,5 @@ public class RegenerationEnchantment extends CcalumodModElements.ModElement {
 		public boolean canVillagerTrade() {
 			return true;
 		}
-
 	}
-
 }

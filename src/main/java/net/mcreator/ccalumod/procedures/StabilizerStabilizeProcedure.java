@@ -1,16 +1,27 @@
 package net.mcreator.ccalumod.procedures;
 
-public class StabilizerStabilizeProcedure {
+import net.minecraft.item.ItemStack;
+import net.minecraft.inventory.container.Slot;
+import net.minecraft.inventory.container.Container;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.Entity;
 
+import net.mcreator.ccalumod.item.RazzkelSnaxItem;
+import net.mcreator.ccalumod.item.DarkMatterGoopItem;
+import net.mcreator.ccalumod.CcalumodMod;
+
+import java.util.function.Supplier;
+import java.util.Map;
+
+public class StabilizerStabilizeProcedure {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
 				CcalumodMod.LOGGER.warn("Failed to load dependency entity for procedure StabilizerStabilize!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
-
 		if (((new Object() {
 			public int getAmount(int sltid) {
 				if (entity instanceof ServerPlayerEntity) {
@@ -132,5 +143,4 @@ public class StabilizerStabilizeProcedure {
 			}
 		}
 	}
-
 }
