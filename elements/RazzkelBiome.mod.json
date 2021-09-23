@@ -70,10 +70,10 @@
     "gravelPatchesPerChunk": 4,
     "reedsPerChunk": 8,
     "cactiPerChunk": 0,
-    "treesPerChunk": 3,
+    "treesPerChunk": 6,
     "vanillaTreeType": "Default",
     "treeType": 1,
-    "minHeight": 7,
+    "minHeight": 4,
     "maxWaterDepth": 0,
     "treeStem": {
       "value": "CUSTOM:RazzalieousLog"
@@ -101,10 +101,10 @@
     "defaultFeatures": [
       "Caves",
       "Ores",
-      "FrozenTopLayer",
       "SwampVegetation",
       "SwampClayDisks",
-      "DeadBushes"
+      "DeadBushes",
+      "Lakes"
     ],
     "spawnEntries": [
       {

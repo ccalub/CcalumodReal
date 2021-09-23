@@ -936,6 +936,24 @@
       "path": "~/Recipes"
     },
     {
+      "name": "MergerMerge",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "merger_merge",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
       "name": "Merger",
       "type": "block",
       "sortid": 78,
@@ -1032,6 +1050,7 @@
       "block.ccalumod.sapphire_ore": "Sapphire Ore",
       "block.ccalumod.razzalieous_log": "Razzalieous Log",
       "subtitles.razzkelhurts": "ah,",
+      "biome.ccalumod.razzkel_biome": "Razzkel Biome",
       "item.ccalumod.razz_spawn_egg": "Razz Spawn Egg",
       "itemGroup.tabccalumod": "Ccalumod",
       "enchantment.ccalumod.lifesteal": "Lifesteal",
@@ -1055,6 +1074,10 @@
     "children": [
       {
         "name": "FunctionBlocks",
+        "children": []
+      },
+      {
+        "name": "Misc",
         "children": []
       },
       {
@@ -1116,10 +1139,6 @@
       {
         "name": "Enchantments",
         "children": []
-      },
-      {
-        "name": "Misc",
-        "children": []
       }
     ]
   },
@@ -1137,7 +1156,6 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.ccalumod",
     "lockBaseModFiles": false
   },
