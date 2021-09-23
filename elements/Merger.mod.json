@@ -108,7 +108,7 @@
     "particleAmount": 4,
     "hasInventory": false,
     "guiBoundTo": "MergerGUI",
-    "openGUIOnRightClick": false,
+    "openGUIOnRightClick": true,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,

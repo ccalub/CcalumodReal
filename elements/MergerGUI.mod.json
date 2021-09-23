@@ -74,13 +74,16 @@
           "dropItemsWhenNotBound": true,
           "name": "Slot #5",
           "x": 267,
-          "y": 65
+          "y": 62
         }
       },
       {
         "type": "button",
         "data": {
           "text": "Merge",
+          "onClick": {
+            "name": "MergerMerge"
+          },
           "width": 50,
           "height": 20,
           "name": "Merge",

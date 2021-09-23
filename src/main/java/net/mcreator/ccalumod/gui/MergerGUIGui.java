@@ -28,6 +28,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
+import net.mcreator.ccalumod.procedures.MergerMergeProcedure;
 import net.mcreator.ccalumod.item.RazzanthiumShardItem;
 import net.mcreator.ccalumod.CcalumodModElements;
 import net.mcreator.ccalumod.CcalumodMod;
@@ -126,7 +127,7 @@ public class MergerGUIGui extends CcalumodModElements.ModElement {
 			}));
 			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 43, 17) {
 			}));
-			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 142, 29) {
+			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 142, 26) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -379,6 +380,13 @@ public class MergerGUIGui extends CcalumodModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				MergerMergeProcedure.executeProcedure($_dependencies);
+			}
+		}
 	}
 
 	private static void handleSlotAction(PlayerEntity entity, int slotID, int changeType, int meta, int x, int y, int z) {
