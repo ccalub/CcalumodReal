@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "m_3": "record",
+        "m_2": "record2",
+        "m_5": "record3",
+        "m_4": "record4",
+        "m_1": "record5",
+        "m_0": "record6"
+      },
+      "name": "default"
+    }
+  }
+}

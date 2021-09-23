@@ -46,5 +46,23 @@
         "stream": false
       }
     ]
+  },
+  "smokesong": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "ccalumod:smoke-ben-folds-five",
+        "stream": true
+      }
+    ]
+  },
+  "selfless_song": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "ccalumod:ben-folds-five-selfless_-cold-and-composed-_explicit_-_1997-cd-audio_",
+        "stream": true
+      }
+    ]
   }
 }

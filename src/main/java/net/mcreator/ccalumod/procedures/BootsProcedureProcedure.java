@@ -9,6 +9,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.enchantment.EnchantmentHelper;
 
 import net.mcreator.ccalumod.enchantment.SpeedEnchantment;
+import net.mcreator.ccalumod.enchantment.JumpBoostEnchantment;
 import net.mcreator.ccalumod.CcalumodMod;
 
 import java.util.Map;
@@ -39,6 +40,25 @@ public class BootsProcedureProcedure {
 						: ItemStack.EMPTY))) == 3)) {
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 2, (int) 3, (false), (false)));
+		}
+		if (((EnchantmentHelper.getEnchantmentLevel(JumpBoostEnchantment.enchantment,
+				((entity instanceof LivingEntity)
+						? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 0))
+						: ItemStack.EMPTY))) == 1)) {
+			if (entity instanceof LivingEntity)
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 2, (int) 1, (false), (false)));
+		} else if (((EnchantmentHelper.getEnchantmentLevel(JumpBoostEnchantment.enchantment,
+				((entity instanceof LivingEntity)
+						? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 0))
+						: ItemStack.EMPTY))) == 2)) {
+			if (entity instanceof LivingEntity)
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 2, (int) 2, (false), (false)));
+		} else if (((EnchantmentHelper.getEnchantmentLevel(JumpBoostEnchantment.enchantment,
+				((entity instanceof LivingEntity)
+						? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 0))
+						: ItemStack.EMPTY))) == 3)) {
+			if (entity instanceof LivingEntity)
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 2, (int) 3, (false), (false)));
 		}
 	}
 }
