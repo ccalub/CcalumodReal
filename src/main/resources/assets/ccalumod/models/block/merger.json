@@ -3,7 +3,7 @@
   "textures": {
     "down": "ccalumod:blocks/disenchanter_1",
     "up": "ccalumod:blocks/disenchanter_1",
-    "north": "ccalumod:blocks/disenchanter_1",
+    "north": "ccalumod:blocks/disenchanter_2",
     "east": "ccalumod:blocks/disenchanter_1",
     "south": "ccalumod:blocks/disenchanter_1",
     "west": "ccalumod:blocks/disenchanter_1",
