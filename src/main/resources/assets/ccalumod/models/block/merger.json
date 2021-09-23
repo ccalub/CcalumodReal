@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "ccalumod:blocks/mergerbottom",
+    "down": "ccalumod:blocks/mergertop",
     "up": "ccalumod:blocks/mergertop",
     "north": "ccalumod:blocks/mergerface",
     "east": "ccalumod:blocks/mergerface",
     "south": "ccalumod:blocks/mergerface",
     "west": "ccalumod:blocks/mergerface",
-    "particle": "ccalumod:blocks/mergerbottom"
+    "particle": "ccalumod:blocks/mergertop"
   }
 }

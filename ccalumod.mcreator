@@ -9,7 +9,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ccalumod",
-      "path": "~/Procedures"
+      "path": "~/Misc"
     },
     {
       "name": "ToleroniumOre",
@@ -962,6 +962,24 @@
       "ids": {},
       "registry_name": "merger",
       "path": "~/FunctionBlocks"
+    },
+    {
+      "name": "PoisonImmunity",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poison_immunity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [],

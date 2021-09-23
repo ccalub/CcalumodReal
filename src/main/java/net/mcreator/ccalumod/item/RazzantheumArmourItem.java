@@ -42,7 +42,7 @@ public class RazzantheumArmourItem extends CcalumodModElements.ModElement {
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{4, 11, 13, 4}[slot.getIndex()];
+				return new int[]{4, 6, 7, 4}[slot.getIndex()];
 			}
 
 			@Override

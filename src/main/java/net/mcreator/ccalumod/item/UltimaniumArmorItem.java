@@ -42,7 +42,7 @@ public class UltimaniumArmorItem extends CcalumodModElements.ModElement {
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 5, 6, 2}[slot.getIndex()];
+				return new int[]{6, 7, 9, 6}[slot.getIndex()];
 			}
 
 			@Override
