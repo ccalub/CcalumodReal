@@ -87,6 +87,19 @@
           "x": 203,
           "y": 64
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Merger",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Merger",
+          "x": 195,
+          "y": 44
+        }
       }
     ],
     "gridSettings": {
@@ -94,7 +107,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": false
+      "snapOnGrid": true
     }
   }
 }

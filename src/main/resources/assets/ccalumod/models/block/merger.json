@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ccalumod:blocks/disenchanter_1",
+    "up": "ccalumod:blocks/disenchanter_1",
+    "north": "ccalumod:blocks/disenchanter_1",
+    "east": "ccalumod:blocks/disenchanter_1",
+    "south": "ccalumod:blocks/disenchanter_1",
+    "west": "ccalumod:blocks/disenchanter_1",
+    "particle": "ccalumod:blocks/disenchanter_1"
+  }
+}

@@ -73,6 +73,7 @@ public class MergerGUIGuiWindow extends ContainerScreen<MergerGUIGui.GuiContaine
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
+		this.font.drawString(ms, "Merger", 69, 7, -12829636);
 	}
 
 	@Override

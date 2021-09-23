@@ -934,6 +934,16 @@
       "ids": {},
       "registry_name": "stay",
       "path": "~/Recipes"
+    },
+    {
+      "name": "Merger",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "merger",
+      "path": "~/FunctionBlocks"
     }
   ],
   "variable_elements": [],
@@ -987,10 +997,11 @@
       "item.ccalumod.razzantheum_armour_leggings": "Razzantheum Leggings",
       "item.ccalumod.razzantheum_armour_chestplate": "Razzantheum Chestplate",
       "item.ccalumod.ultimanium_dagger": "Ultimanium Dagger",
+      "block.ccalumod.merger": "Merger",
       "block.ccalumod.razzalieous_wood": "Razzalieous Wood",
       "block.ccalumod.razzalieous_fence": "Razzalieous Fence",
-      "item.ccalumod.toleronium_pickaxe": "Toleronium Pickaxe",
       "item.ccalumod.razzantheum_ingot": "Razzantheum Ingot",
+      "item.ccalumod.toleronium_pickaxe": "Toleronium Pickaxe",
       "item.ccalumod.toleronium_chestplate": "Toleronium Body",
       "item.ccalumod.toleronium_sword": "Toleronium Sword",
       "item.ccalumod.ultimanium_broadsword": "Ultimanium Broadsword",
