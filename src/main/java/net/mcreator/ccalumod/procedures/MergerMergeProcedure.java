@@ -182,7 +182,7 @@ public class MergerMergeProcedure {
 													if (_current instanceof Supplier) {
 														Object invobj = ((Supplier) _current).get();
 														if (invobj instanceof Map) {
-															((Slot) ((Map) invobj).get((int) (1))).decrStackSize((int) (2));
+															((Slot) ((Map) invobj).get((int) (2))).decrStackSize((int) (1));
 															_current.detectAndSendChanges();
 														}
 													}
@@ -195,7 +195,7 @@ public class MergerMergeProcedure {
 													if (_current instanceof Supplier) {
 														Object invobj = ((Supplier) _current).get();
 														if (invobj instanceof Map) {
-															((Slot) ((Map) invobj).get((int) (1))).decrStackSize((int) (3));
+															((Slot) ((Map) invobj).get((int) (3))).decrStackSize((int) (1));
 															_current.detectAndSendChanges();
 														}
 													}
@@ -208,7 +208,7 @@ public class MergerMergeProcedure {
 													if (_current instanceof Supplier) {
 														Object invobj = ((Supplier) _current).get();
 														if (invobj instanceof Map) {
-															((Slot) ((Map) invobj).get((int) (1))).decrStackSize((int) (4));
+															((Slot) ((Map) invobj).get((int) (4))).decrStackSize((int) (1));
 															_current.detectAndSendChanges();
 														}
 													}
@@ -235,8 +235,8 @@ public class MergerMergeProcedure {
 																}
 																return 0;
 															}
-														}.getAmount((int) (0))) + 1));
-														((Slot) ((Map) invobj).get((int) (0))).putStack(_setstack);
+														}.getAmount((int) (5))) + 1));
+														((Slot) ((Map) invobj).get((int) (5))).putStack(_setstack);
 														_current.detectAndSendChanges();
 													}
 												}
