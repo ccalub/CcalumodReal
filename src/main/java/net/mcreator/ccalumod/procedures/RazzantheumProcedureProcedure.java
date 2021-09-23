@@ -19,9 +19,9 @@ public class RazzantheumProcedureProcedure {
 		Entity entity = (Entity) dependencies.get("entity");
 		if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1) < 0)) {
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.POISON, (int) 5, (int) 1, (false), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.POISON, (int) 100, (int) 1, (false), (false)));
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NAUSEA, (int) 2, (int) 1, (false), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NAUSEA, (int) 40, (int) 1, (false), (false)));
 		}
 	}
 }
