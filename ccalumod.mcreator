@@ -897,7 +897,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "razzanthium_block",
-      "path": "~/Dimensions"
+      "path": "~/Resources"
     },
     {
       "name": "RazzantheumRecipe",
@@ -1146,8 +1146,8 @@
       "item.ccalumod.stabilized_dark_matter": "Stabilized Dark Matter",
       "item.ccalumod.ultimanium_dagger": "Ultimanium Dagger",
       "block.ccalumod.merger": "Merger",
-      "block.ccalumod.razzalieous_wood": "Razzalieous Wood",
       "entity.ccalumod.razzanthius_beast": "Razzanthius Beast",
+      "block.ccalumod.razzalieous_wood": "Razzalieous Wood",
       "block.ccalumod.razzalieous_fence": "Razzalieous Fence",
       "item.ccalumod.razzantheum_ingot": "Razzantheum Ingot",
       "item.ccalumod.toleronium_pickaxe": "Toleronium Pickaxe",
