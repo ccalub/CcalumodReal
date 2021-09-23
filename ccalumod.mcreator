@@ -9,7 +9,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ccalumod",
-      "path": "~/Misc"
+      "path": "~/Procedures"
     },
     {
       "name": "ToleroniumOre",
@@ -936,16 +936,6 @@
       "path": "~/Recipes"
     },
     {
-      "name": "Merger",
-      "type": "block",
-      "sortid": 78,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "merger",
-      "path": "~/FunctionBlocks"
-    },
-    {
       "name": "MergerMerge",
       "type": "procedure",
       "sortid": 79,
@@ -962,6 +952,16 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "Merger",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "merger",
+      "path": "~/FunctionBlocks"
     }
   ],
   "variable_elements": [],
@@ -1077,6 +1077,10 @@
         "children": []
       },
       {
+        "name": "Misc",
+        "children": []
+      },
+      {
         "name": "Procedures",
         "children": []
       },
@@ -1137,7 +1141,11 @@
         "children": []
       },
       {
-        "name": "Misc",
+        "name": "jyjrfxhg",
+        "children": []
+      },
+      {
+        "name": "ckmhxn",
         "children": []
       }
     ]
