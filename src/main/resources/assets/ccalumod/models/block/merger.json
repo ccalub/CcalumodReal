@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "ccalumod:blocks/mergertop",
-    "up": "ccalumod:blocks/mergertop",
-    "north": "ccalumod:blocks/mergerface",
-    "east": "ccalumod:blocks/mergerface",
-    "south": "ccalumod:blocks/mergerface",
-    "west": "ccalumod:blocks/mergerface",
-    "particle": "ccalumod:blocks/mergertop"
+    "down": "ccalumod:blocks/disenchanter_5",
+    "up": "ccalumod:blocks/disenchanter_5",
+    "north": "ccalumod:blocks/disenchanter_1",
+    "east": "ccalumod:blocks/disenchanter_1",
+    "south": "ccalumod:blocks/disenchanter_1",
+    "west": "ccalumod:blocks/disenchanter_1",
+    "particle": "ccalumod:blocks/disenchanter_5"
   }
 }
