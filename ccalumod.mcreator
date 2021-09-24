@@ -1250,6 +1250,50 @@
       "ids": {},
       "registry_name": "ultimanium_to_pickaxe",
       "path": "~/Recipes"
+    },
+    {
+      "name": "Treefeller",
+      "type": "enchantment",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "treefeller",
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "AxeProcedure",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "axe_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Enchantments"
     }
   ],
   "variable_elements": [],
@@ -1369,6 +1413,7 @@
       "item.ccalumod.toleronium_helmet": "Toleronium Helmet",
       "item.ccalumod.ultimanium_longsword": "Ultimanium Longsword",
       "item.ccalumod.toler_spawn_egg": "Toler Spawn Egg",
+      "enchantment.ccalumod.treefeller": "Tree Feller",
       "item.ccalumod.razzkel_snax": "Razzkel Snax",
       "block.ccalumod.sapphire_ore": "Sapphire Ore",
       "block.ccalumod.razzalieous_log": "Razzalieous Log",
