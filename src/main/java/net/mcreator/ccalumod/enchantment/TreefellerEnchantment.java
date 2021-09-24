@@ -39,7 +39,7 @@ public class TreefellerEnchantment extends CcalumodModElements.ModElement {
 
 		@Override
 		public int getMaxLevel() {
-			return 3;
+			return 1;
 		}
 
 		@Override
