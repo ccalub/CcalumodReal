@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Excavation",
+    "type": "BREAKABLE",
+    "rarity": "RARE",
+    "minLevel": 1,
+    "maxLevel": 1,
+    "damageModifier": 0,
+    "compatibleEnchantments": [],
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:ToleroniumShovel"
+      },
+      {
+        "value": "CUSTOM:UltimaniumShovel"
+      },
+      {
+        "value": "CUSTOM:RubyShovel"
+      }
+    ],
+    "isTreasureEnchantment": true,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

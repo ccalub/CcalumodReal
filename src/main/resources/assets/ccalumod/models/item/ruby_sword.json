@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "ccalumod:items/razzantheum_axe"
+    "layer0": "ccalumod:items/ruby_sword"
   }
 }

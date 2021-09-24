@@ -424,12 +424,28 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "sourceentity",
             "type": "entity"
           },
           {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
           },
           {
             "name": "world",
@@ -900,16 +916,6 @@
       "path": "~/Resources"
     },
     {
-      "name": "RazzantheumRecipe",
-      "type": "recipe",
-      "sortid": 75,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "razzantheum_recipe",
-      "path": "~/Recipes"
-    },
-    {
       "name": "MergerMerge",
       "type": "procedure",
       "sortid": 79,
@@ -1070,6 +1076,180 @@
         ]
       },
       "path": "~/Enchantments"
+    },
+    {
+      "name": "RazzantheumAxe",
+      "type": "tool",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_axe",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "RubyPickaxe",
+      "type": "tool",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_pickaxe",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "RubySword",
+      "type": "tool",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_sword",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "RubyAxe",
+      "type": "tool",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_axe",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "RubyShovel",
+      "type": "tool",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_shovel",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "Excavation",
+      "type": "enchantment",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "excavation",
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "ShovelProcedure",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shovel_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "RazzantheumShovel",
+      "type": "tool",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_shovel",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "RazzantheumToPickaxe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_to_pickaxe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RazzantheumToSword",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_to_sword",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RazzantheumToAxe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_to_axe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RazzantheumToAxe2",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razzantheum_to_axe_2",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "XpFinder",
+      "type": "enchantment",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_finder",
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "RazantheumToShovel",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razantheum_to_shovel",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "UltimaniumToPickaxe",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultimanium_to_pickaxe",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -1136,6 +1316,7 @@
       "item.ccalumod.razzantheum_armour_boots": "Razzantheum Boots",
       "block.ccalumod.toleronium_ore": "Toleronium Ore",
       "block.ccalumod.stabilizer": "Stabilizer",
+      "item.ccalumod.ruby_axe": "Ruby Axe",
       "block.ccalumod.razzalieous_slab": "Razzalieous Slab",
       "item.ccalumod.toleronium_shovel": "Toleronium Shovel",
       "item.ccalumod.blank_record": "Blank Record",
@@ -1146,8 +1327,8 @@
       "item.ccalumod.stabilized_dark_matter": "Stabilized Dark Matter",
       "item.ccalumod.ultimanium_dagger": "Ultimanium Dagger",
       "block.ccalumod.merger": "Merger",
-      "entity.ccalumod.razzanthius_beast": "Razzanthius Beast",
       "block.ccalumod.razzalieous_wood": "Razzalieous Wood",
+      "entity.ccalumod.razzanthius_beast": "Razzanthius Beast",
       "block.ccalumod.razzalieous_fence": "Razzalieous Fence",
       "item.ccalumod.razzantheum_ingot": "Razzantheum Ingot",
       "item.ccalumod.toleronium_pickaxe": "Toleronium Pickaxe",
@@ -1155,14 +1336,18 @@
       "item.ccalumod.toleronium_chestplate": "Toleronium Body",
       "item.ccalumod.ultimanium_broadsword": "Ultimanium Broadsword",
       "item.ccalumod.toleronium_sword": "Toleronium Sword",
+      "enchantment.ccalumod.xp_finder": "EXP Finder",
       "item.ccalumod.ultimanium_armor_leggings": "Ultimanium Armor Leggings",
       "item.ccalumod.ultimanium_armor_boots": "Ultimanium Armor Boots",
       "item.ccalumod.razzantheum_armour_helmet": "Razzantheum Helmet",
+      "enchantment.ccalumod.excavation": "Excavation",
+      "item.ccalumod.razzantheum_shovel": "Razzantheum Shovel",
       "item.ccalumod.toleronium_boots": "Toleronium Boots",
       "block.ccalumod.razzanthium_block": "Razzanthium Block",
       "advancements.razzantheum.descr": "Get a Razzantheum sword!",
       "item.ccalumod.amethyst": "Amethyst",
       "subtitles.razzkelliving": "Hey! Got any games on yer phone?",
+      "item.ccalumod.razzantheum_axe": "Razzantheum Axe",
       "item.ccalumod.toleronium_axe": "Toleronium Axe",
       "block.ccalumod.razzalieous_pressure_plate": "Razzalieous Pressure Plate",
       "item.ccalumod.ultimanium_armor_chestplate": "Ultimanium Armor Body",
@@ -1173,6 +1358,8 @@
       "subtitles.toler_sound": "",
       "item.ccalumod.sapphire": "Sapphire",
       "entity.ccalumod.razz": "Razz",
+      "item.ccalumod.ruby_sword": "Ruby Sword",
+      "item.ccalumod.ruby_shovel": "Ruby Shovel",
       "block.ccalumod.razzantheum_ore": "Razzantheum Ore",
       "item.ccalumod.toleronium_ingot": "Toleronium Ingot",
       "subtitles.razzkeldeath": "frrrrrrrick you pal",
@@ -1192,6 +1379,7 @@
       "itemGroup.tabccalumod": "Ccalumod",
       "enchantment.ccalumod.lifesteal": "Lifesteal",
       "item.ccalumod.stay.desc": "The Kid LAROI ft. Justin Bieber",
+      "item.ccalumod.ruby_pickaxe": "Ruby Pickaxe",
       "item.ccalumod.razzanthius_beast_spawn_egg": "Razzanthius Beast Spawn Egg",
       "entity.ccalumod.toler": "Toler",
       "item.ccalumod.razzanthium_shard": "Razzanthium Shard",
