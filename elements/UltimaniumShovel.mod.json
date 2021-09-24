@@ -28,6 +28,9 @@
     ],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "ShovelProcedure"
+    }
   }
 }

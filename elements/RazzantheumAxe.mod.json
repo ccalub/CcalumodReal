@@ -3,27 +3,25 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "razzantheum_axe",
+    "texture": "toleronium_axe",
     "customModelName": "Normal",
-    "name": "Toleronium Axe",
-    "specialInfo": [
-      "An Axe Based on TolerLive"
-    ],
+    "name": "Razzantheum Axe",
+    "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:Ccalumod"
+      "value": "TOOLS"
     },
-    "toolType": "Axe",
+    "toolType": "Pickaxe",
     "harvestLevel": 3,
-    "efficiency": 7.5,
-    "attackSpeed": 0.8,
-    "enchantability": 10,
-    "damageVsEntity": 5.5,
-    "usageCount": 781,
+    "efficiency": 6.5,
+    "attackSpeed": 1.4000000000000001,
+    "enchantability": 15,
+    "damageVsEntity": 4.3999999999999995,
+    "usageCount": 700,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:ToleroniumIngot"
+        "value": "CUSTOM:RazzantheumIngot"
       }
     ],
     "immuneToFire": true,

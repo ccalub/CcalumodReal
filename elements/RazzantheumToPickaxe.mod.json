@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:RazzanthiumShard"
+        "value": "CUSTOM:RazzantheumIngot"
       },
       {
-        "value": "CUSTOM:RazzanthiumShard"
+        "value": "CUSTOM:RazzantheumIngot"
       },
       {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:RazzanthiumShard"
-      },
-      {
-        "value": "CUSTOM:RazzanthiumShard"
+        "value": "CUSTOM:RazzantheumIngot"
       },
       {
         "value": ""
       },
       {
+        "value": "Items.STICK"
+      },
+      {
         "value": ""
       },
       {
         "value": ""
+      },
+      {
+        "value": "Items.STICK"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:RazzantheumIngot"
+      "value": "CUSTOM:RazzantheumPickaxe"
     },
-    "name": "razzantheum_recipe",
+    "name": "razzantheum_to_pickaxe",
     "namespace": "mod"
   }
 }

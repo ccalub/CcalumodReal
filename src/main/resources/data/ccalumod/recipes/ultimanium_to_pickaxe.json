@@ -1,0 +1,30 @@
+{
+  "group": "ccalumod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "ccalumod:ultimanium"
+    },
+    "1": {
+      "item": "ccalumod:ultimanium"
+    },
+    "2": {
+      "item": "ccalumod:ultimanium"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ccalumod:ultimanium_pickaxe",
+    "count": 1
+  }
+}

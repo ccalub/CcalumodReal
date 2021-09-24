@@ -1,0 +1,38 @@
+{
+  "_fv": 24,
+  "_type": "enchantment",
+  "definition": {
+    "name": "EXP Finder",
+    "type": "BREAKABLE",
+    "rarity": "UNCOMMON",
+    "minLevel": 1,
+    "maxLevel": 4,
+    "damageModifier": 0,
+    "compatibleEnchantments": [],
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:ToleroniumSword"
+      },
+      {
+        "value": "CUSTOM:UltimaniumBroadsword"
+      },
+      {
+        "value": "CUSTOM:UltimaniumDagger"
+      },
+      {
+        "value": "CUSTOM:UltimaniumLongsword"
+      },
+      {
+        "value": "CUSTOM:RazzantheumSword"
+      },
+      {
+        "value": "CUSTOM:RubySword"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}
