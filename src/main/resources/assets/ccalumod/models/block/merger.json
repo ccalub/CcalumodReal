@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "ccalumod:blocks/disenchanter_5",
-    "up": "ccalumod:blocks/disenchanter_5",
-    "north": "ccalumod:blocks/disenchanter_1",
-    "east": "ccalumod:blocks/disenchanter_1",
-    "south": "ccalumod:blocks/disenchanter_1",
-    "west": "ccalumod:blocks/disenchanter_1",
-    "particle": "ccalumod:blocks/disenchanter_5"
+    "down": "ccalumod:blocks/placeholder",
+    "up": "ccalumod:blocks/placeholder",
+    "north": "ccalumod:blocks/placeholder",
+    "east": "ccalumod:blocks/placeholder",
+    "south": "ccalumod:blocks/placeholder",
+    "west": "ccalumod:blocks/placeholder",
+    "particle": "ccalumod:blocks/placeholder"
   }
 }
