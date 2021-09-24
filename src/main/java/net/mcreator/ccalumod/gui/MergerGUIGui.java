@@ -29,7 +29,6 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
 import net.mcreator.ccalumod.procedures.MergerMergeProcedure;
-import net.mcreator.ccalumod.item.RazzanthiumShardItem;
 import net.mcreator.ccalumod.CcalumodModElements;
 import net.mcreator.ccalumod.CcalumodMod;
 
@@ -116,10 +115,6 @@ public class MergerGUIGui extends CcalumodModElements.ModElement {
 				}
 			}
 			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 43, 44) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return (RazzanthiumShardItem.block == stack.getItem());
-				}
 			}));
 			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 16, 17) {
 			}));
