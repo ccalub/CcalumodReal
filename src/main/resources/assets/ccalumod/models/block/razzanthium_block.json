@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "ccalumod:blocks/razzantheumblock",
-    "up": "ccalumod:blocks/razzantheumblock",
-    "north": "ccalumod:blocks/razzantheumblock",
-    "east": "ccalumod:blocks/razzantheumblock",
-    "south": "ccalumod:blocks/razzantheumblock",
-    "west": "ccalumod:blocks/razzantheumblock",
-    "particle": "ccalumod:blocks/razzantheumblock"
+    "down": "ccalumod:blocks/placeholder",
+    "up": "ccalumod:blocks/placeholder",
+    "north": "ccalumod:blocks/placeholder",
+    "east": "ccalumod:blocks/placeholder",
+    "south": "ccalumod:blocks/placeholder",
+    "west": "ccalumod:blocks/placeholder",
+    "particle": "ccalumod:blocks/placeholder"
   }
 }
