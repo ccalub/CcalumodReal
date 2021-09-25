@@ -127,6 +127,7 @@ public class ToleroniumItem extends CcalumodModElements.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
+					$_dependencies.put("itemstack", itemstack);
 					BootsProcedureProcedure.executeProcedure($_dependencies);
 				}
 			}
