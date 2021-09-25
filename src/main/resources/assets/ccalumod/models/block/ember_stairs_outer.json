@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "ccalumod:blocks/ember_planks",
+    "top": "ccalumod:blocks/ember_planks",
+    "side": "ccalumod:blocks/ember_planks"
+  }
+}

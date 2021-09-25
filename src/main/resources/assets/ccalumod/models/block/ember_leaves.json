@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ccalumod:blocks/ember_leaves_blank",
+    "up": "ccalumod:blocks/ember_leaves_blank",
+    "north": "ccalumod:blocks/ember_leaves_blank",
+    "east": "ccalumod:blocks/ember_leaves_blank",
+    "south": "ccalumod:blocks/ember_leaves_blank",
+    "west": "ccalumod:blocks/ember_leaves_blank",
+    "particle": "ccalumod:blocks/ember_leaves_blank"
+  }
+}

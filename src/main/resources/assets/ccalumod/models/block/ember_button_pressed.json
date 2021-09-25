@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "ccalumod:blocks/ember_planks"
+  }
+}

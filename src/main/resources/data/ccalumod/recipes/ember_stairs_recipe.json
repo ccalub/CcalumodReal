@@ -1,0 +1,33 @@
+{
+  "group": "ccalumod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ccalumod:ember_planks"
+    },
+    "3": {
+      "item": "ccalumod:ember_planks"
+    },
+    "4": {
+      "item": "ccalumod:ember_planks"
+    },
+    "6": {
+      "item": "ccalumod:ember_planks"
+    },
+    "7": {
+      "item": "ccalumod:ember_planks"
+    },
+    "8": {
+      "item": "ccalumod:ember_planks"
+    }
+  },
+  "result": {
+    "item": "ccalumod:ember_stairs",
+    "count": 4
+  }
+}

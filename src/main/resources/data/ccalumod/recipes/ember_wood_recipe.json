@@ -1,0 +1,26 @@
+{
+  "group": "ccalumod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "ccalumod:ember_log"
+    },
+    "1": {
+      "item": "ccalumod:ember_log"
+    },
+    "2": {
+      "item": "ccalumod:ember_log"
+    },
+    "3": {
+      "item": "ccalumod:ember_log"
+    }
+  },
+  "result": {
+    "item": "ccalumod:ember_wood",
+    "count": 3
+  }
+}

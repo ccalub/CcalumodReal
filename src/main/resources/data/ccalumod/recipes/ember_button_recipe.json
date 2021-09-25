@@ -1,0 +1,13 @@
+{
+  "group": "ccalumod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ccalumod:ember_planks"
+    }
+  ],
+  "result": {
+    "item": "ccalumod:ember_button",
+    "count": 1
+  }
+}

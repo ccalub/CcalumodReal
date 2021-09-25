@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ccalumod:blocks/ember_log_top",
+    "up": "ccalumod:blocks/ember_log_top",
+    "north": "ccalumod:blocks/ember_log_side",
+    "east": "ccalumod:blocks/ember_log_side",
+    "south": "ccalumod:blocks/ember_log_side",
+    "west": "ccalumod:blocks/ember_log_side",
+    "particle": "ccalumod:blocks/ember_log_top"
+  }
+}

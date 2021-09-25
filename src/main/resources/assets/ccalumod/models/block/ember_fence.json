@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "ccalumod:blocks/ember_planks",
+    "particle": "ccalumod:blocks/ember_planks"
+  }
+}

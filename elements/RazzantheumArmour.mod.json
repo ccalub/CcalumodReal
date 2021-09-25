@@ -10,6 +10,9 @@
     "textureLeggings": "razzantheumarmour_leggings",
     "enableBoots": true,
     "textureBoots": "razzantheumarmour_boots",
+    "onHelmetTick": {
+      "name": "PoisonImmunity"
+    },
     "onBodyTick": {
       "name": "ChestplateProcedure"
     },
