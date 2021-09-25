@@ -10,6 +10,7 @@ import net.minecraft.enchantment.EnchantmentHelper;
 
 import net.mcreator.ccalumod.enchantment.SpeedEnchantment;
 import net.mcreator.ccalumod.enchantment.JumpBoostEnchantment;
+import net.mcreator.ccalumod.enchantment.GlideEnchantment;
 import net.mcreator.ccalumod.CcalumodMod;
 
 import java.util.Map;
@@ -21,7 +22,13 @@ public class BootsProcedureProcedure {
 				CcalumodMod.LOGGER.warn("Failed to load dependency entity for procedure BootsProcedure!");
 			return;
 		}
+		if (dependencies.get("itemstack") == null) {
+			if (!dependencies.containsKey("itemstack"))
+				CcalumodMod.LOGGER.warn("Failed to load dependency itemstack for procedure BootsProcedure!");
+			return;
+		}
 		Entity entity = (Entity) dependencies.get("entity");
+		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
 		if (((EnchantmentHelper.getEnchantmentLevel(SpeedEnchantment.enchantment,
 				((entity instanceof LivingEntity)
 						? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 0))
@@ -59,6 +66,12 @@ public class BootsProcedureProcedure {
 						: ItemStack.EMPTY))) == 3)) {
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 2, (int) 3, (false), (false)));
+		}
+		if (((EnchantmentHelper.getEnchantmentLevel(GlideEnchantment.enchantment, (itemstack))) == 1)) {
+			if (((entity.getMotion().getY()) < 0)) {
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SLOW_FALLING, (int) 2, (int) 1, (false), (false)));
+			}
 		}
 	}
 }
