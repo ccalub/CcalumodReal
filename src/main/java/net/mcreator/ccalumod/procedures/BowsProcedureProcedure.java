@@ -66,13 +66,13 @@ public class BowsProcedureProcedure {
 				.getItem() == Items.BOW)) {
 			if (((EnchantmentHelper.getEnchantmentLevel(ParanoiaEnchantment.enchantment, (itemInHand))) == 1)) {
 				if (entity instanceof LivingEntity)
-					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 1, (false), (false)));
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.BLINDNESS, (int) 60, (int) 1, (false), (false)));
 			}
 		} else if ((((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY)
 				.getItem() == Items.CROSSBOW)) {
 			if (((EnchantmentHelper.getEnchantmentLevel(ParanoiaEnchantment.enchantment, (itemInHand))) == 1)) {
 				if (entity instanceof LivingEntity)
-					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 1, (false), (false)));
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.BLINDNESS, (int) 60, (int) 1, (false), (false)));
 			}
 		}
 	}
