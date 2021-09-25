@@ -10,9 +10,9 @@
     "creativeTab": {
       "value": "TOOLS"
     },
-    "toolType": "Pickaxe",
+    "toolType": "Axe",
     "harvestLevel": 3,
-    "efficiency": 6.5,
+    "efficiency": 11.0,
     "attackSpeed": 1.4000000000000001,
     "enchantability": 15,
     "damageVsEntity": 4.3999999999999995,

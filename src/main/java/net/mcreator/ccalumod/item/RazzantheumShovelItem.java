@@ -6,7 +6,7 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ShovelItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
@@ -30,7 +30,7 @@ public class RazzantheumShovelItem extends CcalumodModElements.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new PickaxeItem(new IItemTier() {
+		elements.items.add(() -> new ShovelItem(new IItemTier() {
 			public int getMaxUses() {
 				return 2000;
 			}

@@ -6,11 +6,11 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
+import net.minecraft.item.AxeItem;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.block.BlockState;
 
@@ -30,13 +30,13 @@ public class RazzantheumAxeItem extends CcalumodModElements.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new PickaxeItem(new IItemTier() {
+		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
 				return 700;
 			}
 
 			public float getEfficiency() {
-				return 6.5f;
+				return 11f;
 			}
 
 			public float getAttackDamage() {
@@ -63,6 +63,7 @@ public class RazzantheumAxeItem extends CcalumodModElements.ModElement {
 				int z = pos.getZ();
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
 					$_dependencies.put("itemstack", itemstack);
 					$_dependencies.put("x", x);
 					$_dependencies.put("y", y);

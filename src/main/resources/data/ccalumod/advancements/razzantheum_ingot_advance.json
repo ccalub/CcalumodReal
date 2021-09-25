@@ -1,27 +1,26 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
     "icon": {
-      "item": "ccalumod:razzanthium_shard"
+      "item": "ccalumod:razzantheum_ingot"
     },
     "title": {
-      "translate": "advancements.razzantheum.title"
+      "translate": "advancements.razzantheum_ingot_advance.title"
     },
     "description": {
-      "translate": "advancements.razzantheum.descr"
+      "translate": "advancements.razzantheum_ingot_advance.descr"
     },
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "razzantheum": {
+    "razzantheum_ingot_advance": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "ccalumod:razzanthium_shard",
+            "item": "ccalumod:razzantheum_ingot",
             "count": {
               "min": 1,
               "max": 1
@@ -33,5 +32,6 @@
   },
   "rewards": {
     "experience": 0
-  }
+  },
+  "parent": "ccalumod:razzantheum"
 }
