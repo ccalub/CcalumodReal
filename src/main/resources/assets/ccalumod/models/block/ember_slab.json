@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "ccalumod:blocks/ember_planks",
-    "top": "ccalumod:blocks/ember_planks",
-    "side": "ccalumod:blocks/ember_planks"
-  }
-}
