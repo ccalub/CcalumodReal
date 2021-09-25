@@ -18,6 +18,7 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
+import net.mcreator.ccalumod.procedures.PoisonImmunityProcedure;
 import net.mcreator.ccalumod.procedures.ChestplateProcedureProcedure;
 import net.mcreator.ccalumod.CcalumodModElements;
 
@@ -86,6 +87,19 @@ public class RazzantheumArmourItem extends CcalumodModElements.ModElement {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "ccalumod:textures/models/armor/razzantheumarmour_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+			}
+
+			@Override
+			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
+				super.onArmorTick(itemstack, world, entity);
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
+					PoisonImmunityProcedure.executeProcedure($_dependencies);
+				}
 			}
 		}.setRegistryName("razzantheum_armour_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {

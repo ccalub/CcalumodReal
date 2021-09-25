@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ccalumod:blocks/ember_planks",
+    "particle": "ccalumod:blocks/ember_planks"
+  }
+}
