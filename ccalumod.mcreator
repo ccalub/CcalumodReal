@@ -1332,6 +1332,38 @@
       "ids": {},
       "registry_name": "glide",
       "path": "~/Enchantments"
+    },
+    {
+      "name": "Paranoia",
+      "type": "enchantment",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "paranoia",
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "BowsProcedure",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bows_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchantments"
     }
   ],
   "variable_elements": [],
@@ -1446,6 +1478,7 @@
       "block.ccalumod.razzantheum_ore": "Razzantheum Ore",
       "subtitles.razzkeldeath": "frrrrrrrick you pal",
       "item.ccalumod.toleronium_ingot": "Toleronium Ingot",
+      "enchantment.ccalumod.paranoia": "Paranoia",
       "block.ccalumod.razzalieous_fence_gate": "Razzalieous Fence Gate",
       "block.ccalumod.ruby_ore": "Ruby Ore",
       "item.ccalumod.ultimanium_pickaxe": "Ultimanium Pickaxe",
