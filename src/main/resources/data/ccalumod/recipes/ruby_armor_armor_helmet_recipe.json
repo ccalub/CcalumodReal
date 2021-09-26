@@ -1,0 +1,29 @@
+{
+  "group": "ccalumod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ccalumod:ruby"
+    },
+    "1": {
+      "item": "ccalumod:ruby"
+    },
+    "2": {
+      "item": "ccalumod:ruby"
+    },
+    "3": {
+      "item": "ccalumod:ruby"
+    },
+    "5": {
+      "item": "ccalumod:ruby"
+    }
+  },
+  "result": {
+    "item": "ccalumod:ruby_armor_armor_helmet",
+    "count": 1
+  }
+}

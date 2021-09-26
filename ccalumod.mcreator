@@ -202,16 +202,6 @@
       "path": "~/Resources"
     },
     {
-      "name": "Workstation",
-      "type": "block",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "workstation",
-      "path": "~/FunctionBlocks"
-    },
-    {
       "name": "WorkstationGUI",
       "type": "gui",
       "sortid": 21,
@@ -1314,16 +1304,6 @@
       "path": "~/Achievments"
     },
     {
-      "name": "WaterGun",
-      "type": "rangeditem",
-      "sortid": 114,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "water_gun",
-      "path": "~/Tools And Armor"
-    },
-    {
       "name": "Glide",
       "type": "enchantment",
       "sortid": 134,
@@ -1364,6 +1344,62 @@
         ]
       },
       "path": "~/Enchantments"
+    },
+    {
+      "name": "RubyArmorArmor",
+      "type": "armor",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "RubyArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_armor_armor_helmet_recipe",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "RubyArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_armor_armor_body_recipe",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "RubyArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_armor_armor_leggings_recipe",
+      "path": "~/Tools And Armor"
+    },
+    {
+      "name": "RubyArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_armor_armor_boots_recipe",
+      "path": "~/Tools And Armor"
     }
   ],
   "variable_elements": [],
@@ -1437,6 +1473,7 @@
       "item.ccalumod.razzantheum_armour_leggings": "Razzantheum Leggings",
       "block.ccalumod.razzalieous_stairs": "Razzalieous Stairs",
       "advancements.razzantheum.title": "Chernobyl Stick",
+      "item.ccalumod.ruby_armor_armor_chestplate": "Ruby Chestplate",
       "item.ccalumod.razzantheum_armour_chestplate": "Razzantheum Chestplate",
       "item.ccalumod.stabilized_dark_matter": "Stabilized Dark Matter",
       "item.ccalumod.ultimanium_dagger": "Ultimanium Dagger",
@@ -1479,6 +1516,7 @@
       "subtitles.razzkeldeath": "frrrrrrrick you pal",
       "item.ccalumod.toleronium_ingot": "Toleronium Ingot",
       "enchantment.ccalumod.paranoia": "Paranoia",
+      "item.ccalumod.ruby_armor_armor_leggings": "Ruby Leggings",
       "block.ccalumod.razzalieous_fence_gate": "Razzalieous Fence Gate",
       "block.ccalumod.ruby_ore": "Ruby Ore",
       "item.ccalumod.ultimanium_pickaxe": "Ultimanium Pickaxe",
@@ -1487,6 +1525,7 @@
       "item.ccalumod.toler_spawn_egg": "Toler Spawn Egg",
       "enchantment.ccalumod.treefeller": "Tree Feller",
       "item.ccalumod.razzkel_snax": "Razzkel Snax",
+      "item.ccalumod.ruby_armor_armor_boots": "Ruby Boots",
       "block.ccalumod.razzalieous_log": "Razzalieous Log",
       "block.ccalumod.sapphire_ore": "Sapphire Ore",
       "subtitles.razzkelhurts": "ah,",
@@ -1494,14 +1533,13 @@
       "biome.ccalumod.razzkel_biome": "Razzkel Biome",
       "item.ccalumod.razz_spawn_egg": "Razz Spawn Egg",
       "itemGroup.tabccalumod": "Ccalumod",
+      "item.ccalumod.ruby_armor_armor_helmet": "Ruby Helmet",
       "item.ccalumod.stay.desc": "The Kid LAROI ft. Justin Bieber",
       "enchantment.ccalumod.lifesteal": "Lifesteal",
       "item.ccalumod.ruby_pickaxe": "Ruby Pickaxe",
       "item.ccalumod.razzanthius_beast_spawn_egg": "Razzanthius Beast Spawn Egg",
       "entity.ccalumod.toler": "Toler",
       "item.ccalumod.razzanthium_shard": "Razzanthium Shard",
-      "item.ccalumod.water_gun": "Water Gun",
-      "block.ccalumod.workstation": "Workstation",
       "enchantment.ccalumod.jump_boost": "Jump Boost",
       "block.ccalumod.razzalieous_button": "Razzalieous Button",
       "item.ccalumod.ultimanium_armor_helmet": "Ultimanium Armor Helmet",

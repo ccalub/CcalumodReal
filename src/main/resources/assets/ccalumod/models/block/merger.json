@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "ccalumod:blocks/placeholder",
-    "up": "ccalumod:blocks/placeholder",
-    "north": "ccalumod:blocks/placeholder",
-    "east": "ccalumod:blocks/placeholder",
-    "south": "ccalumod:blocks/placeholder",
-    "west": "ccalumod:blocks/placeholder",
-    "particle": "ccalumod:blocks/placeholder"
+    "down": "ccalumod:blocks/new_piskel-1.png_1",
+    "up": "ccalumod:blocks/new_piskel-1.png_1",
+    "north": "ccalumod:blocks/new_piskel-2.png_1",
+    "east": "ccalumod:blocks/new_piskel-2.png_1",
+    "south": "ccalumod:blocks/new_piskel-2.png_1",
+    "west": "ccalumod:blocks/new_piskel-2.png_1",
+    "particle": "ccalumod:blocks/new_piskel-1.png_1"
   }
 }
