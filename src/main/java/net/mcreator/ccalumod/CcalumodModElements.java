@@ -49,12 +49,12 @@ public class CcalumodModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("ccalumod", "toler_sound")));
 		sounds.put(new ResourceLocation("ccalumod", "razzkeldeath"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("ccalumod", "razzkeldeath")));
+		sounds.put(new ResourceLocation("ccalumod", "razzkelliving"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("ccalumod", "razzkelliving")));
 		sounds.put(new ResourceLocation("ccalumod", "razzkelhurts"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("ccalumod", "razzkelhurts")));
 		sounds.put(new ResourceLocation("ccalumod", "staysong"), new net.minecraft.util.SoundEvent(new ResourceLocation("ccalumod", "staysong")));
 		sounds.put(new ResourceLocation("ccalumod", "smokesong"), new net.minecraft.util.SoundEvent(new ResourceLocation("ccalumod", "smokesong")));
-		sounds.put(new ResourceLocation("ccalumod", "razzkelliving"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("ccalumod", "razzkelliving")));
 		sounds.put(new ResourceLocation("ccalumod", "selfless_song"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("ccalumod", "selfless_song")));
 		try {

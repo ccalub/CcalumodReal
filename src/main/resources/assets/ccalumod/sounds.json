@@ -18,6 +18,16 @@
       }
     ]
   },
+  "razzkelliving": {
+    "category": "neutral",
+    "subtitle": "subtitles.razzkelliving",
+    "sounds": [
+      {
+        "name": "ccalumod:razzkelphone",
+        "stream": false
+      }
+    ]
+  },
   "razzkelhurts": {
     "category": "hostile",
     "subtitle": "subtitles.razzkelhurts",
@@ -43,16 +53,6 @@
       {
         "name": "ccalumod:smoke-ben-folds-five",
         "stream": true
-      }
-    ]
-  },
-  "razzkelliving": {
-    "category": "hostile",
-    "subtitle": "subtitles.razzkelliving",
-    "sounds": [
-      {
-        "name": "ccalumod:razzkelphone",
-        "stream": false
       }
     ]
   },
