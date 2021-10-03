@@ -1,0 +1,39 @@
+{
+  "group": "ccalumod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ccalumod:ultimanium"
+    },
+    "2": {
+      "item": "ccalumod:ultimanium"
+    },
+    "3": {
+      "item": "ccalumod:ultimanium"
+    },
+    "4": {
+      "item": "ccalumod:ultimanium"
+    },
+    "5": {
+      "item": "ccalumod:ultimanium"
+    },
+    "6": {
+      "item": "ccalumod:ultimanium"
+    },
+    "7": {
+      "item": "ccalumod:ultimanium"
+    },
+    "8": {
+      "item": "ccalumod:ultimanium"
+    }
+  },
+  "result": {
+    "item": "ccalumod:ultimanium_armor_chestplate",
+    "count": 1
+  }
+}

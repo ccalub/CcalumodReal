@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:RazzantheumArmourArmor.helmet"
+      "value": "CUSTOM:RazzantheumArmour.helmet"
     },
     "name": "razzantheum_armour_armor_helmet_recipe",
     "namespace": "mod"

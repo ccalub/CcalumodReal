@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "placeholder",
+    "texture": "darkmatterstabilized",
     "customModelName": "Normal",
     "name": "Stabilized Dark Matter",
     "rarity": "COMMON",

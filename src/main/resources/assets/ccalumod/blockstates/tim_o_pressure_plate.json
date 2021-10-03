@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "ccalumod:block/tim_o_pressure_plate"
+    },
+    "powered=true": {
+      "model": "ccalumod:block/tim_o_pressure_plate_down"
+    }
+  }
+}

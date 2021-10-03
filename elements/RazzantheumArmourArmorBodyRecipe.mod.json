@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:RazzantheumArmourArmor.body"
+      "value": "CUSTOM:RazzantheumArmour.body"
     },
     "name": "razzantheum_armour_armor_body_recipe",
     "namespace": "mod"

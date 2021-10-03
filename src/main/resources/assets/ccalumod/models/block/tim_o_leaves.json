@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ccalumod:blocks/tim_oh_tree-4.png",
+    "up": "ccalumod:blocks/tim_oh_tree-4.png",
+    "north": "ccalumod:blocks/tim_oh_tree-4.png",
+    "east": "ccalumod:blocks/tim_oh_tree-4.png",
+    "south": "ccalumod:blocks/tim_oh_tree-4.png",
+    "west": "ccalumod:blocks/tim_oh_tree-4.png",
+    "particle": "ccalumod:blocks/tim_oh_tree-4.png"
+  }
+}

@@ -99,7 +99,7 @@ public class RazzantheumOreBlock extends CcalumodModElements.ModElement {
 				}
 			};
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 10)).range(64)
-					.square().func_242731_b(10);
+					.square().func_242731_b(5);
 			event.getRegistry().register(feature.setRegistryName("razzantheum_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("ccalumod:razzantheum_ore"), configuredFeature);
 		}

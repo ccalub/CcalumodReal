@@ -1,0 +1,32 @@
+{
+  "group": "ccalumod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "ccalumod:tim_o_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "ccalumod:tim_o_planks"
+    },
+    "3": {
+      "item": "ccalumod:tim_o_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "ccalumod:tim_o_planks"
+    }
+  },
+  "result": {
+    "item": "ccalumod:tim_o_fence",
+    "count": 3
+  }
+}

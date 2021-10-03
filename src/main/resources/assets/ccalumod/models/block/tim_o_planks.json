@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ccalumod:blocks/tim_oh_tree-5.png",
+    "particle": "ccalumod:blocks/tim_oh_tree-5.png"
+  }
+}

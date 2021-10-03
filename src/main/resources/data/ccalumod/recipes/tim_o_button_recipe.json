@@ -1,0 +1,13 @@
+{
+  "group": "ccalumod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ccalumod:tim_o_planks"
+    }
+  ],
+  "result": {
+    "item": "ccalumod:tim_o_button",
+    "count": 1
+  }
+}

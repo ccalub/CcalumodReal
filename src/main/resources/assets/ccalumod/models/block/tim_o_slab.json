@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "ccalumod:blocks/tim_oh_tree-5.png",
+    "top": "ccalumod:blocks/tim_oh_tree-5.png",
+    "side": "ccalumod:blocks/tim_oh_tree-5.png"
+  }
+}
