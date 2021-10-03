@@ -1,0 +1,42 @@
+{
+  "group": "ccalumod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ccalumod:toleronium_ingot"
+    },
+    "1": {
+      "item": "minecraft:smooth_stone"
+    },
+    "2": {
+      "item": "ccalumod:toleronium_ingot"
+    },
+    "3": {
+      "item": "minecraft:smooth_stone"
+    },
+    "4": {
+      "item": "minecraft:crafting_table"
+    },
+    "5": {
+      "item": "minecraft:smooth_stone"
+    },
+    "6": {
+      "item": "ccalumod:toleronium_ingot"
+    },
+    "7": {
+      "item": "minecraft:smooth_stone"
+    },
+    "8": {
+      "item": "ccalumod:toleronium_ingot"
+    }
+  },
+  "result": {
+    "item": "ccalumod:merger",
+    "count": 1
+  }
+}

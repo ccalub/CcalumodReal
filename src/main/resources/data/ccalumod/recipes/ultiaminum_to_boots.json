@@ -1,0 +1,26 @@
+{
+  "group": "ccalumod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ccalumod:ultimanium"
+    },
+    "2": {
+      "item": "ccalumod:ultimanium"
+    },
+    "3": {
+      "item": "ccalumod:ultimanium"
+    },
+    "5": {
+      "item": "ccalumod:ultimanium"
+    }
+  },
+  "result": {
+    "item": "ccalumod:ultimanium_armor_boots",
+    "count": 1
+  }
+}

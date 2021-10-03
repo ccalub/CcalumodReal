@@ -1,12 +1,7 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "ccalumod:blocks/placeholder",
-    "up": "ccalumod:blocks/placeholder",
-    "north": "ccalumod:blocks/placeholder",
-    "east": "ccalumod:blocks/placeholder",
-    "south": "ccalumod:blocks/placeholder",
-    "west": "ccalumod:blocks/placeholder",
-    "particle": "ccalumod:blocks/placeholder"
+    "all": "ccalumod:blocks/razzanthium-3.png",
+    "particle": "ccalumod:blocks/razzanthium-3.png"
   }
 }

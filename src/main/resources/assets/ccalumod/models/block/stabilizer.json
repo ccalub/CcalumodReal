@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "ccalumod:blocks/placeholder",
-    "up": "ccalumod:blocks/placeholder",
-    "north": "ccalumod:blocks/placeholder",
-    "east": "ccalumod:blocks/placeholder",
-    "south": "ccalumod:blocks/placeholder",
-    "west": "ccalumod:blocks/placeholder",
-    "particle": "ccalumod:blocks/placeholder"
+    "down": "ccalumod:blocks/stablizer_-4.png",
+    "up": "ccalumod:blocks/stablizer_-1.png",
+    "north": "ccalumod:blocks/stablizer_-2.png",
+    "east": "ccalumod:blocks/stablizer_-2.png",
+    "south": "ccalumod:blocks/stablizer_-2.png",
+    "west": "ccalumod:blocks/stablizer_-2.png",
+    "particle": "ccalumod:blocks/stablizer_-4.png"
   }
 }

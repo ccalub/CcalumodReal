@@ -1,0 +1,30 @@
+{
+  "group": "ccalumod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ccalumod:ruby"
+    },
+    "1": {
+      "item": "ccalumod:ruby"
+    },
+    "2": {
+      "item": "ccalumod:ruby"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ccalumod:ruby_axe",
+    "count": 1
+  }
+}

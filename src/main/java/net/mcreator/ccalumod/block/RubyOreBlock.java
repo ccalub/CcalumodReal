@@ -114,7 +114,7 @@ public class RubyOreBlock extends CcalumodModElements.ModElement {
 				}
 			};
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 3)).range(16)
-					.square().func_242731_b(6);
+					.square().func_242731_b(7);
 			event.getRegistry().register(feature.setRegistryName("ruby_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("ccalumod:ruby_ore"), configuredFeature);
 		}

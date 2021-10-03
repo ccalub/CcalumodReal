@@ -1,0 +1,29 @@
+{
+  "group": "ccalumod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ccalumod:ultimanium"
+    },
+    "1": {
+      "item": "ccalumod:ultimanium"
+    },
+    "2": {
+      "item": "ccalumod:ultimanium"
+    },
+    "3": {
+      "item": "ccalumod:ultimanium"
+    },
+    "5": {
+      "item": "ccalumod:ultimanium"
+    }
+  },
+  "result": {
+    "item": "ccalumod:ultimanium_armor_helmet",
+    "count": 1
+  }
+}

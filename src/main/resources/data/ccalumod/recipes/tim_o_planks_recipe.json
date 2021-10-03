@@ -1,0 +1,13 @@
+{
+  "group": "ccalumod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:timo_log"
+    }
+  ],
+  "result": {
+    "item": "ccalumod:tim_o_planks",
+    "count": 4
+  }
+}

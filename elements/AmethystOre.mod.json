@@ -124,11 +124,7 @@
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": [
-      {
-        "value": "extreme_hills_with_trees"
-      }
-    ],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"

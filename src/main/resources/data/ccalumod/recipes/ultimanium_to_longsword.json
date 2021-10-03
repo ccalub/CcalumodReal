@@ -1,0 +1,24 @@
+{
+  "group": "ccalumod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "ccalumod:ultimanium"
+    },
+    "4": {
+      "item": "ccalumod:ultimanium"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ccalumod:ultimanium_longsword",
+    "count": 1
+  }
+}

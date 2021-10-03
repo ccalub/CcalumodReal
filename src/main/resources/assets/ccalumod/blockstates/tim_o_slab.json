@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ccalumod:block/tim_o_slab"
+    },
+    "type=top": {
+      "model": "ccalumod:block/tim_o_slab_top"
+    },
+    "type=double": {
+      "model": "ccalumod:block/tim_o_slab_full"
+    }
+  }
+}

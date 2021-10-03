@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "ccalumod:block/tim_o_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "ccalumod:block/tim_o_wood"
+    },
+    "axis=z": {
+      "model": "ccalumod:block/tim_o_wood",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "ccalumod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "ccalumod:tim_o_log"
+    },
+    "1": {
+      "item": "ccalumod:tim_o_log"
+    },
+    "2": {
+      "item": "ccalumod:tim_o_log"
+    },
+    "3": {
+      "item": "ccalumod:tim_o_log"
+    }
+  },
+  "result": {
+    "item": "ccalumod:tim_o_wood",
+    "count": 3
+  }
+}

@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:RazzantheumArmourArmor.legs"
+      "value": "CUSTOM:RazzantheumArmour.legs"
     },
     "name": "razzantheum_armour_armor_leggings_recipe",
     "namespace": "mod"

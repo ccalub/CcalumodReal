@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "ccalumod:blocks/tim_oh_tree-5.png",
+    "particle": "ccalumod:blocks/tim_oh_tree-5.png"
+  }
+}
